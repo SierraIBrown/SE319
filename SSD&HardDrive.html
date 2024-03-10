@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSD and Hard Drive</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="main-menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#" class="dropdown">PC Parts</a>
+                <ul class="dropdown-menu">
+                    <li><a href="./CPU.html">CPU</a></li>
+                    <li><a href="./RAM.html">RAM</a></li>
+                    <li><a href="./Motherboards.html">Motherboards</a></li>
+                    <li><a href="./CoolingFans.html">Cooling Fans</a></li>
+                    <li><a href="./GPU.html">GPU</a></li>
+                    <li><a href="./SSD&HardDrive.html">SSD/Hard Drives</a></li>
+                    <li><a href="./PowerSource.html">Power Sources</a></li>
+                    <li><a href="./Cases.html">Cases</a></li>
+                    <li><a href="./RecommendedPreBuilt.html">Recommended Prebuilt</a></li>
+                </ul>
+            </li>
+            <li><a href="./AboutUs.html">About Us</a></li>
+            <li><a href="./YourList.html">Your List</a></li>
+        </ul>
+    </nav>
+    <div class="title-container">
+        <h1 class="title">SSD &<br>Hard<br>Drives</h1>
+        <div class="description">
+            <p>
+                Solid State Drives (SSD) and Hard Drives both store long term data on your computer.
+                There are many differences between the two, and both have their own advantages.
+                SSDs have memory chips, controllers, cache, and interface.
+                They provide faster data access, have no moving parts, are energy efficient, and are more compact than HDDs.
+                HDDs have platter, read/write heads, spindle motors, and controllers.
+                They are very cost effective, offer higher capacity, have compatibility with much older computers, and can last for several years with proper care and maintenance.
+            </p>
+        </div>
+    </div>
+    <div class="sort-dropdown">
+        <label for="sort-options">Sort By:</label>
+        <select id="sort-options">
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="best-performance">Best Performace</option>
+        </select>
+    </div>
+    <div class="container">
+        <aisde class="filter-sidebar">
+            <div class="filter-container">
+                <h2>Filters</h2>
+                <section class="filter-section">
+                    <h3>Brand</h3>
+                    <section class="brand-section">
+                        <h4>Samsung:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="970 Evo Plus">Samsung 970 Evo Plus<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="870 Evo">Samsung 870 Evo<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="T5 portable">Samsung T5 Portable
+                        </label>
+                    </section>
+                    <section class="brand-section">
+                        <h4>Western Digital:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="Blue SN550">WD Blue SN550<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Black SN750">WD Black SN750<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Elements Portable">WD Elements Portable
+                        </label>
+                    </section>
+                    <section class="brand-section">
+                        <h4>Seagate:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="FireCuda 520">Seagate FireCuda 520<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Barracuda">Seagate Barracuda<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Expansion Portable">Seagate Expansion Portable<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="BarraCuda">Seagate BarraCuda<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="IronWolf">Seagate IronWolf<br>
+                        </label>
+                    </section>
+                </section>
+                <section class="filter-section">
+                    <h3>SSD or HDD</h3>
+                    <label>
+                        <input type="checkbox" name="form" value="SSD">SSD<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="form" value="HDD">HDD<br>
+                    </label>
+                </section>
+                <section class="filter-section">
+                    <h3>Storage Capacity</h3>
+                    <label>
+                        <input type="checkbox" name="size" value="500 GB">500 GB<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="size" value="1 TB">1 TB<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="size" value="2 TB">2 TB<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="size" value="4 TB">4 TB<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="size" value="5 TB">5 TB<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="size" value="16 TB">16 TB<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="size" value="18 TB">18 TB
+                    </label>
+                </section>
+                <div class="filter-section">
+                    <h3>Price Range</h3>
+                    <div class="price-range-bar">
+                        <div class="markers">
+                            <div class="marker marker-min">$0</div>
+                            <div class="marker marker-max">$5000</div>
+                        </div>
+                        <input type="range" min="0" max="5000" value="5000" class="slider" id="priceRange">
+                        <div class="slider-label" id="sliderValue">$5000</div>
+                    </div>
+                </div>
+                <button id="resetFilters">Reset Filters</button>
+            </div>
+        </aisde>
+        <div id="productList" class="product-list">
+            <div class="popup" id="popup">
+                Product added to Your List!
+            </div>
+        </div>
+    </div>
+    <script src="./product.js"></script>
+</body>
+</html>

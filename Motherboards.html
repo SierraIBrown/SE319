@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motherboards</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="main-menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#" class="dropdown">PC Parts</a>
+                <ul class="dropdown-menu">
+                    <li><a href="./CPU.html">CPU</a></li>
+                    <li><a href="./RAM.html">RAM</a></li>
+                    <li><a href="./Motherboards.html">Motherboards</a></li>
+                    <li><a href="./CoolingFans.html">Cooling Fans</a></li>
+                    <li><a href="./GPU.html">GPU</a></li>
+                    <li><a href="./SSD&HardDrive.html">SSD/Hard Drives</a></li>
+                    <li><a href="./PowerSource.html">Power Sources</a></li>
+                    <li><a href="./Cases.html">Cases</a></li>
+                    <li><a href="./RecommendedPreBuilt.html">Recommended Prebuilt</a></li>
+                </ul>
+            </li>
+            <li><a href="./AboutUs.html">About Us</a></li>
+            <li><a href="./YourList.html">Your List</a></li>
+        </ul>
+    </nav>
+    <div class="title-container">
+        <h1 class="title">Mother<br>boards</h1>
+        <div class="description">
+            <p>
+                The motherboard provides connectivity, compatibility, and stability for the system, and is a crucial component for building and maintaing a functional PC.
+                The motherboard consists of a CPU Socket, RAM slots, Expansion Slots, Chipset, BIOS, Connectors, and Power Connectors.
+                The exapnsion slot allows you to install additional components like GPU, sound cards, and network adapters.
+                The chipset is a collection of integrated circuits that manage communication between the CPU, RAM, storage devices, and other components.
+                The Basic I/O System is firmware that initializes hardware components during the boot process and provides configuration options for the system.
+            </p>
+        </div>
+    </div>
+    <div class="sort-dropdown">
+        <label for="sort-options">Sort By:</label>
+        <select id="sort-options">
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="best-performance">Best Performace</option>
+        </select>
+    </div>
+    <div class="container">
+        <aisde class="filter-sidebar">
+            <div class="filter-container">
+                <h2>Filters</h2>
+                <section class="filter-section">
+                    <h3>Brand</h3>
+                    <section class="brand-section">
+                        <h4>ASUS:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="ROG Strix B550-F Gaming">ASUS ROG Strix B550-F Gaming<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Prime Z590-A">ASUS Prime Z590-P<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="TUF Gaming X570-Plus">ASUS TUF Gaming X570-Plus<br>
+                        </label>
+                    </section>
+                    <section class="brand-section">
+                        <h4>MSI:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="MPG B550 Gaming Edge WiFi">MSI MPG B550 Gaming Plus<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="MAG B560 Tomahawk WiFi">MSI MAG B560 Tomahawk WiFi<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="MEG X570 ACE">MSI MEG X570 Unify<br>
+                        </label>
+                    </section>
+                    <section class="brand-section">
+                        <h4>Gigabyte:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="B550 AORUS Elite AX">Gigabyte B550 AORUS Elite AX<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Z590 AORUS Elite AX">Gigabyte Z590 AORUS Elite<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="X570 AORUS Elite WiFi">Gigabyte X570 AORUS Elite WiFi<br>
+                        </label>
+                    </section>
+                </section>
+                <section class="filter-section">
+                    <h3>Chipset</h3>
+                    <label>
+                        <input type="checkbox" name="chipset" value="B550">B550<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="chipset" value="Z590">Z590<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="chipset" value="X570">X570<br>
+                    </label>
+                </section>
+                <section class="filter-section">
+                    <h3>Compatibility</h3>
+                    <label>
+                        <input type="checkbox" name="compatibility" value="Intel & AMD Ryzen">Intel & AMD Ryzen<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="compatibility" value="Intel">Intel only<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="compatibility" value="AMD Ryzen">AMD Ryzen only<br>
+                    </label>
+                </section>
+                <div class="filter-section">
+                    <h3>Price Range</h3>
+                    <div class="price-range-bar">
+                        <div class="markers">
+                            <div class="marker marker-min">$0</div>
+                            <div class="marker marker-max">$500</div>
+                        </div>
+                        <input type="range" min="0" max="500" value="500" class="slider" id="priceRange">
+                        <div class="slider-label" id="sliderValue">$500</div>
+                    </div>
+                </div>
+                <button id="resetFilters">Reset Filters</button>
+            </div>
+        </aisde>
+        <div id="productList" class="product-list">
+            <div class="popup" id="popup">
+                Product added to Your List!
+            </div>
+        </div>
+    </div>
+    <script src="./product.js"></script>
+</body>
+</html>

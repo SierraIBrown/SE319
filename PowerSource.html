@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Source</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="main-menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#" class="dropdown">PC Parts</a>
+                <ul class="dropdown-menu">
+                    <li><a href="./CPU.html">CPU</a></li>
+                    <li><a href="./RAM.html">RAM</a></li>
+                    <li><a href="./Motherboards.html">Motherboards</a></li>
+                    <li><a href="./CoolingFans.html">Cooling Fans</a></li>
+                    <li><a href="./GPU.html">GPU</a></li>
+                    <li><a href="./SSD&HardDrive.html">SSD/Hard Drives</a></li>
+                    <li><a href="./PowerSource.html">Power Sources</a></li>
+                    <li><a href="./Cases.html">Cases</a></li>
+                    <li><a href="./RecommendedPreBuilt.html">Recommended Prebuilt</a></li>
+                </ul>
+            </li>
+            <li><a href="./AboutUs.html">About Us</a></li>
+            <li><a href="./YourList.html">Your List</a></li>
+        </ul>
+    </nav>
+    <div class="title-container">
+        <h1 class="title">PSU</h1>
+        <div class="description">
+            <p>
+                6 main parts make up the power supply units.
+                The transformer, rectifier, filtering capacitors and inductors, voltage regulator modules, power connectors, and protection circuits.
+                The transformer converts the current coming from the outlet into the required voltage level for each component.
+                The rectifier takes the lower-voltage AC into a direct current.
+                The filtering capacitors and inductos then takes those pulsating DC waveforms to provide a stable and clean DC output.
+                The power connector then takes and distributes the DC power to the other various components.
+                The protection circuits safeguard the PSU from damage due to electrical faults or abnormalities.
+            </p>
+        </div>
+    </div>
+    <div class="sort-dropdown">
+        <label for="sort-options">Sort By:</label>
+        <select id="sort-options">
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="best-performace">Best Performace</option>
+        </select>
+    </div>
+    <div class="container">
+        <aisde class="filter-sidebar">
+            <div class="filter-container">
+                <h2>Filters</h2>
+                <section class="filter-section">
+                    <h3>Brand</h3>
+                    <section class="brand-section">
+                        <h4>Corsair:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="RM850X">Corsair RM850X<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="CX650M">Corsair CX650M<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="SF750 Platinum">Corsair SF750 Platinum<br>
+                        </label>
+                    </section>
+                    <section class="brand-section">
+                        <h4>EVGA:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="SuperNOVA 850 G5">EVGA SuperNOVA 850 G5<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="600 BQ">EVGA 600 BQ<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="SuperNOVA 750 G3">EVGA SuperNOVA 750 G3<br>
+                        </label>
+                    </section>
+                    <section class="brand-section">
+                        <h4>Seasonic:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="Focus GX-750">Seasonic Focus GX-750<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="S12III 550">Seasonic S12III 550<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Prime TX-1000">Seasonic Prime TX-1000<br>
+                        </label>
+                    </section>
+                </section>
+                <section class="filter-section">
+                    <h3>Wattage</h3>
+                    <label>
+                        <input type="checkbox" name="wattage" value="550 W">550 W<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="wattage" value="600 W">600 W<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="wattage" value="650 W">650 W<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="wattage" value="750 W">750 W<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="wattage" value="850 W">850 W<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="wattage" value="1000 W">1000 W
+                    </label>
+                </section>
+                <section class="filter-section">
+                    <h3>Rating</h3>
+                    <label>
+                        <input type="checkbox" name="rating" value="80+ Bronze">80+ Bronze<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="rating" value="80+ Gold">80+ Gold<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="rating" value="80+ Platinum">80+ Platinum<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="rating" value="80+ Titanium">80+ Titanium<br>
+                    </label>
+                </section>
+                <div class="filter-section">
+                    <h3>Price Range</h3>
+                    <div class="price-range-bar">
+                        <div class="markers">
+                            <div class="marker marker-min">$0</div>
+                            <div class="marker marker-max">$5000</div>
+                        </div>
+                        <input type="range" min="0" max="5000" value="5000" class="slider" id="priceRange">
+                        <div class="slider-label" id="sliderValue">$5000</div>
+                    </div>
+                </div>
+                <button id="resetFilters">Reset Filters</button>
+            </div>
+        </aisde>
+        <div id="productList" class="product-list">
+            <div class="popup" id="popup">
+                Product added to Your List!
+            </div>
+        </div>
+    </div>
+    <script src="./product.js"></script>
+</body>
+</html>

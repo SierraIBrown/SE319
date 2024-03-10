@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPU</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="main-menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#" class="dropdown">PC Parts</a>
+                <ul class="dropdown-menu">
+                    <li><a href="./CPU.html">CPU</a></li>
+                    <li><a href="./RAM.html">RAM</a></li>
+                    <li><a href="./Motherboards.html">Motherboards</a></li>
+                    <li><a href="./CoolingFans.html">Cooling Fans</a></li>
+                    <li><a href="./GPU.html">GPU</a></li>
+                    <li><a href="./SSD&HardDrive.html">SSD/Hard Drives</a></li>
+                    <li><a href="./PowerSource.html">Power Sources</a></li>
+                    <li><a href="./Cases.html">Cases</a></li>
+                    <li><a href="./RecommendedPreBuilt.html">Recommended Prebuilt</a></li>
+                </ul>
+            </li>
+            <li><a href="./AboutUs.html">About Us</a></li>
+            <li><a href="./YourList.html">Your List</a></li>
+        </ul>
+    </nav>
+    <div class="title-container">
+        <h1 class="title">CPUs</h1>
+        <div class="description">
+            <p>
+                A CPU is made up of 5 main parts. The ALU, the CU, registers, cache memory, and the clock.
+                The Arithmetic Logic Unit is responsible for executing instructions and performing calculations that are required by software programs.
+                The Control Unit directs the flow of data instructions within the CPU and other hardware components.
+                Registers are high speed memory units that store temporary data, instructions, and memory address used by the ALU and CU during execution.
+                Cache memory stores frequently used data and instructions and reduces time it takes for the CPU to access them.
+                The clock is a timing device that synchronizes the operations of the CPU and other hardware components.
+            </p>
+            <p>Intel puts more emphasis on higher single-threaded performance and clock speed, while AMD Ryzen tend to offer more cores at competitve prices.
+                The main difference is that most Intel CPUs come with integrated graphics, whereas AMD Ryzen requires you to also own a GPU.
+            </p>
+        </div>
+    </div>
+    <div class="sort-dropdown">
+        <label for="sort-options">Sort By:</label>
+        <select id="sort-options">
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="best-performance">Best Performance</option>
+        </select>
+    </div>
+    <div class="container">
+        <aside class="filter-sidebar">
+            <div class="filter-container">
+                <h2>Filters</h2>
+                <section class="filter-section">
+                    <h3>Brand</h3>
+                    <section class="brand-section">
+                        <h4>Intel</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="i9-11900K">Intel Core i9-11900K<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="i9-10900K">Intel Core i9-10900K<br>
+                        </label>
+                        <labe>
+                            <input type="checkbox" name="model" value="i7-11700K">Intel Core i7-11700K<br>
+                        </labe>
+                        <labe>
+                            <input type="checkbox" name="model" value="i7-9700K">Intel Core i7-9700K<br>
+                        </labe>
+                        <label>
+                            <input type="checkbox" name="model" value="i5-11600K">Intel Core i5-11600K<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="i5-10600K">Intel Core i5-10600K<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="i3-9100F">Intel Core i3-9100F<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="i3-10100F">Intel Core i3-10100F
+                        </label>
+                    </section>
+                    <section class="brand-section">
+                        <h4>AMD Ryzen</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="AMD Ryzen 9 5900X">AMD Ryzen 9 5900X<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="AMD Ryzen 9 3900X">AMD Ryzen 9 3900X<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="AMD Ryzen 7 5800X">AMD Ryzen 7 5800X<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="AMD Ryzen 7 3800X">AMD Ryzen 7 3800X<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="AMD Ryzen 7 2700X">AMD Ryzen 7 2700X<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="AMD Ryzen 5 5600X">AMD Ryzen 5 5600X<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="AMD Ryzen 5 3600X">AMD Ryzen 5 3600X<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="AMD Ryzen 5 2600X">AMD Ryzen 5 2600X<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="AMD Ryzen 3 3300X">AMD Ryzen 3 3300X<br>
+                        </label>
+                    </section>
+                </section>
+                <section class="filter-section">
+                    <h3>Generation</h3>
+                    <label>
+                        <input type="checkbox" name="generation" value="Intel 11th Gen (Rocket Lake)">Intel 11th Gen<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="generation" value="Intel 10th Gen (Comet Lake)">Intel 10th Gen<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="generation" value="Intel 9th Gen (Coffee Lake)">Intel 9th Gen<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="generation" value="5000 series (Zen 3)">AMD Ryzen 5000 series<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="generation" value="3000 series (Zen 2)">AMD Ryzen 3000 series<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="generation" value="2000 series (Zen+)">AMD Ryzen 2000 series<br>
+                    </label>
+                </section>
+                <section class="filter-section">
+                    <h3>Cores</h3>
+                    <label>
+                        <input type="checkbox" name="cores" value="12 cores | 24 threads">12 cores | 24 threads<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="cores" value="10 cores | 20 threads">10 cores | 20 threads<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="cores" value="8 cores | 16 threads">8 cores | 16 threads<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="cores" value="8 cores | 8 threads">8 cores | 8 threads<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="cores" value="6 cores | 12 threads">6 cores | 12 threads<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="cores" value="4 cores | 8 threads">4 cores | 8 threads<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="cores" value="4 cores | 4 threads">4 cores | 4 threads<br>
+                    </label>
+                </section>
+                <section class="filter-section">
+                    <h3>Clock Speed</h3>
+                    <label>
+                        <input type="checkbox" name="clock" value="4.1 GHz">4.1 GHz<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="clock" value="3.9 GHz">3.9 GHz<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="clock" value="3.8 GHz">3.8 GHz<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="clock" value="3.7 GHz">3.7 GHz<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="clock" value="3.6 GHz">3.6 GHz<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="clock" value="3.5 GHz">3.5 GHz<br>
+                    </label>
+                </section>
+                <div class="filter-section">
+                    <h3>Price Range</h3>
+                    <div class="price-range-bar">
+                        <div class="markers">
+                            <div class="marker marker-min">$0</div>
+                            <div class="marker marker-max">$1000</div>
+                        </div>
+                        <input type="range" min="0" max="1000" value="1000" class="slider" id="priceRange">
+                        <div class="slider-label" id="sliderValue">$1000</div>
+                    </div>
+                </div>
+                <button id="resetFilters">Reset Filters</button>
+            </div>
+        </aside>
+        <div id="productList" class="product-list">
+            <div class="popup" id="popup">
+                Product added to Your List!
+            </div>
+            <ul id="yourList">
+            </ul>
+        </div>
+    </div>
+    <script src="./product.js"></script>
+</body>
+</html>

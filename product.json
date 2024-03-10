@@ -1,0 +1,1726 @@
+[
+    {
+        "id": 1,
+        "category": "CPU",
+        "brand": "Intel Core",
+        "model": "i9-11900K",
+        "generation": "11th Gen (Rocket Lake)",
+        "cores": "8 cores | 16 threads",
+        "clock": "3.5 GHz",
+        "clockBoost": "5.3 GHz",
+        "socket": "LGA 1200",
+        "cache": "16 MB Intel Smart Cache",
+        "TDP": "125 W",
+        "intGraphics": "Intel UHD Graphics 750",
+        "memSupport": "DDR4-3200",
+        "PCI": "PCIe 4.0",
+        "image" : "images/CPUs/i9-11900K.jpg",
+        "description": "High-performance desktop processor suited for gaming, content creation, and other demanding tasks. Can handle gaming at high resolutions, video editing, 3D rendering, and multitasking. It also has integrated graphics if a dedicated GPU is not necessary or for light gaming.",
+        "prices": [
+            {"price": 284.99, "label": "Amazon.com"},
+            {"price": 389.67, "label": "Walmart"},
+            {"price": 499.18, "label": "PCNation"},
+            {"price": 539.99, "label": "Best Buy"}
+        ]
+    },
+    {
+        "id": 2,
+        "category": "CPU",
+        "brand": "Intel Core",
+        "model": "i9-10900K",
+        "generation": "Intel 10th Gen (Comet Lake)",
+        "cores": "10 cores | 20 threads",
+        "clock": "3.7 GHz",
+        "clockBoost": "5.3 GHz",
+        "socket": "LGA 1200",
+        "cache": "20 MB Intel Smart Cache",
+        "TDP": "125 W",
+        "intGraphics": "Intel UHD Graphics 630",
+        "memSupport": "DDR4-2933",
+        "PCI": "PCIe 3.0",
+        "image" : "images/CPUs/i9-10900K.jpg",
+        "description": "High-performance desktop processor suited for gaming, content creation, and multitasking. Can handle gaming at high resolutions, video editing, 3D rendering, and other heavy workloads. It's integrated graphics allow for basic graphical tasks. Great for gaming enthusiasts and professionals alike.",
+        "prices": [
+            {"price": 490.00, "label": "Amazon.com"},
+            {"price": 595.49, "label": "Electroeshop"},
+            {"price": 645.60, "label": "BTA-Mall"}
+        ]
+    },
+    {
+        "id": 3,
+        "category": "CPU",
+        "brand": "Intel Core",
+        "model": "i7-11700K",
+        "generation": "Intel 11th Gen (Rocket Lake)",
+        "cores": "8 cores | 16 threads",
+        "clock": "3.6 GHz",
+        "clockBoost": "5.0 GHz",
+        "socket": "LGA 1200",
+        "cache": "16 MB Intel Smart Cache",
+        "TDP": "125 W",
+        "intGraphics": "Intel UHD Graphics 750",
+        "memSupport": "DDR4-3200",
+        "PCI": "PCIe 4.0",
+        "image" : "images/CPUs/i7-11700K.jpg",
+        "description": "High-performance desktop processor suited for gaming, content creation, and multitasking. Can handle video editing, 3D rendering, and software development. It's integrated graphics allow for basic graphical tasks. Great for gaming enthusiasts and professionals alike.",
+        "prices": [
+            {"price": 247.99, "label": "Newegg"},
+            {"price": 251.04, "label": "Amazon.com"},
+            {"price": 369.99, "label": "B&H Photo-Video-Audio"},
+            {"price": 389.87, "label": "PCNation"}
+        ]
+    },
+    {
+        "id": 4,
+        "category": "CPU",
+        "brand": "Intel Core",
+        "model": "i7-9700K",
+        "generation": "Intel 9th Gen (Coffee Lake)",
+        "cores": "8 cores | 8 threads",
+        "clock": "3.6 GHz",
+        "clockBoost": "4.9 GHz",
+        "socket": "LGA 1151",
+        "cache": "12 MB Intel Smart Cache",
+        "TDP": "95 W",
+        "intGraphics": "None",
+        "memSupport": "DDR4-2666",
+        "PCI": "PCIe 3.0",
+        "image": "images/CPUs/i7-9700K.jpg",
+        "description": "High-performance desktop processor suited for gaming, and other tasks requiring single-threaded performace. The lack of hyper-threading makes it partcularly well-suited for gaming applications. Great for gaming enthusiasts.",
+        "prices": [
+            {"price": 247.99, "label": "Newegg"},
+            {"price": 279.13, "label": "Amazon.com"},
+            {"price": 478.32, "label": "walmart"}
+        ]
+    },
+    {
+        "id": 5,
+        "category": "CPU",
+        "brand": "Intel Core",
+        "model": "i5-11600K",
+        "generation": "Intel 11th Gen (Rocket Lake)",
+        "cores": "6 cores | 12 threads",
+        "clock": "3.9 GHz",
+        "clockBoost": "4.9 GHz",
+        "socket": "LGA 1200",
+        "cache": "12 MB Intel Smart Cache",
+        "TDP": "125 W",
+        "intGraphics": "Intel UHD Graphics 750",
+        "memSupport": "DDR4-3200",
+        "PCI": "PCIe 4.0",
+        "image": "images/CPUs/i5-11600K.jpg",
+        "description": "Mid-performance desktop processor suitable for gaming, content creation, and multitasking. It provides enough processing power for most gaming applications, video/photo editing, and general productivity. Solid choice for gamers and enthusiasts looking for balance of performance and value.",
+        "prices": [
+            {"price": 198.98, "label": "Amazon.com"},
+            {"price": 216.01, "label": "Walmart"},
+            {"price": 247.99, "label": "B&H Photo-Video-Audio"}
+        ]
+    },
+    {
+        "id": 6,
+        "category": "CPU",
+        "brand": "Intel Core",
+        "model": "i5-10600K",
+        "generation": "Intel 10th Gen (Comet Lake)",
+        "cores": "6 cores | 12 threads",
+        "clock": "4.1 GHz",
+        "clockBoost": "4.8 GHz",
+        "socket": "LGA 1200",
+        "cache": "12 MB Intel Smart Cache",
+        "TDP": "125 W",
+        "intGraphics": "Intel UHD Graphics 630",
+        "memSupport": "DDR4-2666",
+        "PCI": "PCIe 3.0",
+        "image": "images/CPUs/i5-10600K.jpg",
+        "description": "Mid-performance desktop processor suited for gaming, content creation, and general multitasking. Can handle high FPS gaming, video/photo editing, and streaming. Offers good balance of performance and affordability for mainstream users and gamers.",
+        "prices": [
+            {"price": 143.72, "label": "Amazon.com"},
+            {"price": 153.99, "label": "Newegg"},
+            {"price": 172.48, "label": "Walmart"}
+        ]
+    },
+    {
+        "id": 7,
+        "category": "CPU",
+        "brand": "Intel Core",
+        "model": "i3-9100F",
+        "generation": "Intel 9th Gen (Coffee Lake)",
+        "cores": "4 cores | 4 threads",
+        "clock": "3.6 GHz",
+        "clockBoost": "No boost",
+        "socket": "LGA 1151",
+        "cache": "6 MB Intel Smart Cache",
+        "TDP": "65 W",
+        "intGraphics": "None",
+        "memSupport": "DDR4-2400",
+        "PCI": "PCIe 3.0",
+        "image": "images/CPUs/i3-9100F.jpg",
+        "description": "Entry-level desktop processor suited for basic computing such as web browsing, office applications, and light gaming. It is a budget-friendly processor.",
+        "prices": [
+            {"price": 110.75, "label": "Newegg"},
+            {"price": 115.00, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 8,
+        "category": "CPU",
+        "brand": "Intel Core",
+        "model": "i3-10100F",
+        "generation": "Intel 10th Gen (Comet Lake)",
+        "cores": "4 cores | 8 threads",
+        "clock": "3.6 GHz",
+        "clockBoost": "No boost",
+        "socket": "LGA 1200",
+        "cache": "6 MB Intel Smart Cache",
+        "TDP": "65 W",
+        "intGraphics": "None",
+        "memSupport": "DDR4-2666",
+        "PCI": "PCIe 3.0",
+        "image": "images/CPUs/i3-10100F.jpg",
+        "description": "Entry-level desktop processor suited for basic computing such as web browsing, office applications, and light gaming. It is a budget-friendly processor.",
+        "prices": [
+            {"price": 71.30, "label": "B&H Photo-Video-Audio"},
+            {"price": 104.99, "label": "Office Depot"},
+            {"price": 105.69, "label": "Walmart"}
+        ]
+    },
+    {
+        "id": 9,
+        "category": "CPU",
+        "brand": "AMD Ryzen",
+        "model": "AMD Ryzen 9 5900X",
+        "generation": "5000 series (Zen 3)",
+        "cores": "12 cores | 24 threads",
+        "clock": "3.7 GHz",
+        "clockBoost": "4.8 GHz",
+        "socket": "AM4",
+        "cache": "70 MB",
+        "TDP": "105 W",
+        "intGraphics": "None",
+        "memSupport": "DDR4",
+        "PCI": "PCIe 4.0",
+        "image": "images/CPUs/R95900X.jpg",
+        "description": "High-performance desktop processor suited for gaming, content creation, and multitasking. Can handle video editing, 3D rendering, and software development. Fantastic choice for enthusiasts and professionals alike.",
+        "prices": [
+            {"price": 290.86, "label": "Amazon.com"},
+            {"price": 290.86, "label": "Newegg"},
+            {"price": 299.00, "label": "Best Buy"}
+        ]
+    },
+    {
+        "id": 10,
+        "category": "CPU",
+        "brand": "AMD Ryzen",
+        "model": "AMD Ryzen 9 3900X",
+        "generation": "3000 series (Zen 2)",
+        "cores": "12 cores | 24 threads",
+        "clock": "3.8 GHz",
+        "clockBoost": "4.6 GHz",
+        "socket": "AM4",
+        "cache": "70 MB",
+        "TDP": "105 W",
+        "intGraphics": "None",
+        "memSupport": "DDR4",
+        "PCI": "PCIe 4.0",
+        "image": "images/CPUs/R93900X.jpg",
+        "description": "High-performance desktop processor suited for gaming, content creation, and multitasking. Can handle video editing, 3D rendering, and software development. Excellent for enthusiasts and professionals",
+        "prices": [
+            {"price": 445.00, "label": "Amazon.com"},
+            {"price": 712.52, "label": "Walmart"}
+        ]
+    },
+    {
+        "id": 11,
+        "category": "CPU",
+        "brand": "AMD Ryzen",
+        "model": "AMD Ryzen 7 5800X",
+        "generation": "5000 series (Zen 3)",
+        "cores": "8 cores | 16 threads",
+        "clock": "3.8 GHz",
+        "clockBoost": "4.7 GHz",
+        "socket": "AM4",
+        "cache": "36 MB",
+        "TDP": "105 W",
+        "intGraphics": "None",
+        "memSupport": "DDR4",
+        "PCI": "PCIe 4.0",
+        "image": "images/CPUs/R75800X.jpg",
+        "description": "High-performance desktop processor suited for gaming, content creation, and multitasking. Can handle video editing, 3D rendering, and software development. Awesome choice for enthusiasts, gamers, and professionals.",
+        "prices": [
+            {"price": 215.01, "label": "Amazon.com"},
+            {"price": 234.93, "label": "Walmart"},
+            {"price": 239.00, "label": "Best Buy"},
+            {"price": 294.98, "label": "Newegg"}
+        ]
+    },
+    {
+        "id": 12,
+        "category": "CPU",
+        "brand": "AMD Ryzen",
+        "model": "AMD Ryzen 7 3800X",
+        "generation": "3000 series (Zen 2)",
+        "cores": "8 cores | 16 threads",
+        "clock": "3.9 GHz",
+        "clockBoost": "4.5 GHz",
+        "socket": "AM4",
+        "cache": "36 MB",
+        "TDP": "105 W",
+        "intGraphics": "None",
+        "memSupport": "DDR4",
+        "PCI": "PCIe 4.0",
+        "image": "images/CPUs/R73800X.jpg",
+        "description": "High-performance desktop processor suited for gaming, content creation, and multitasking. Can handle video editing, 3D rendering, and software development. Awesome choice for enthusiasts, gamers, and professionals.",
+        "prices": [
+            {"price": 279.99, "label": "AAAWave"},
+            {"price": 284.00, "label": "Amazon.com"},
+            {"price": 315.29, "label": "Walmart"}
+        ]
+    },
+    {
+        "id": 13,
+        "category": "CPU",
+        "brand": "AMD Ryzen",
+        "model": "AMD Ryzen 7 2700X",
+        "generation": "2000 series (Zen+)",
+        "cores": "8 cores | 16 threads",
+        "clock": "3.7 GHz",
+        "clockBoost": "4.3 GHz",
+        "socket": "AM4",
+        "cache": "20 MB",
+        "TDP": "105 W",
+        "intGraphics": "None",
+        "memSupport": "DDR4",
+        "PCI": "PCIe 3.0",
+        "image": "images/CPUs/R72700X.jpg",
+        "description": "High-performance desktop processor suited for gaming, content creation, and multitasking. Can handle video editing, 3D rendering, and software development. Though versatile, newer generations may offer better performance and efficiency.",
+        "prices": [
+            {"price": 149.99, "label": "Newegg"},
+            {"price": 200.00, "label": "MERCARi"}
+        ]
+    },
+    {
+        "id": 14,
+        "category": "CPU",
+        "brand": "AMD Ryzen",
+        "model": "AMD Ryzen 5 5600X",
+        "generation": "5000 series (Zen 3)",
+        "cores": "6 cores | 12 threads",
+        "clock": "3.7 GHz",
+        "clockBoost": "4.6 GHz",
+        "socket": "AM4",
+        "cache": "35 MB",
+        "TDP": "65 W",
+        "intGraphics": "None",
+        "memSupport": "DDR4",
+        "PCI": "PCIe 4.0",
+        "image": "images/CPUs/R55600X.jpg",
+        "description": "High-performance desktop processor suited for gaming and mainstream users. Can handle content creation, video editing, and multitasking. Due to its relatively low TDP wattage, it makes it energy-efficient and great for smaller systems. Great for gamers and content creators.",
+        "prices": [
+            {"price": 154.15, "label": "Amazon.com"},
+            {"price": 159.00, "label": "Best Buy"},
+            {"price": 174.92, "label": "Walmart"}
+        ]
+    },
+    {
+        "id": 15,
+        "category": "CPU",
+        "brand": "AMD Ryzen",
+        "model": "AMD RYZEN 5 3600X",
+        "generation": "3000 series (Zen 2)",
+        "cores": "6 cores | 12 threads",
+        "clock": "3.8 GHz",
+        "clockBoost": "4.4 GHz",
+        "socket": "AM4",
+        "cache": "35 MB",
+        "TDP": "95W",
+        "intGraphics": "None",
+        "memSupport": "DDR4",
+        "PCI": "PCIe 4.0",
+        "image": "images/CPUs/R53600X.jpg",
+        "description": "Mid-performance desktop processor suited for gaming, content creation, and multitasking. Can handle video editing, 3D rendering, and software development. Great balance of performance for value. Amazing for gamers and mainstream users.",
+        "prices": [
+            {"price": 110.99, "label": "Amazon.com"},
+            {"price": 135.00, "label": "Target"},
+            {"price": 159.00, "label": "Office Depot"}
+        ]
+    },
+    {
+        "id": 16,
+        "category": "CPU",
+        "brand": "AMD Ryzen",
+        "model": "AMD Ryzen 5 2600X",
+        "generation": "2000 series (Zen+)",
+        "cores": "6 cores | 12 threads",
+        "clock": "3.6 GHz",
+        "clockBoost": "4.2 GHz",
+        "socket": "AM4",
+        "cache": "19 MB",
+        "TDP": "95 W",
+        "intGraphics": "None",
+        "memSupport": "DDR4",
+        "PCI": "PCIe 3.0",
+        "image": "images/CPUs/R52600X.jpg",
+        "description": "Mid-performance desktop processor suited for gaming, multitasking, and productivity. Can handle video editing, content creation, and software development. Suitable for gamers and mainstream users wanting a CPU for everyday use without spending a pretty penny.",
+        "prices": [
+            {"price": 210.00, "label": "Amazon.com"},
+            {"price": 272.99, "label": "Walmart"}
+        ]
+    },
+    {
+        "id": 17,
+        "category": "CPU",
+        "brand": "AMD Ryzen",
+        "model": "AMD Ryzen3 3300X",
+        "generation": "3000 series (Zen 2)",
+        "cores": "4 cores | 8 threads",
+        "clock": "3.8 GHz",
+        "clockBoost": "4.3 GHz",
+        "socket": "AM4",
+        "cache": "18 MB",
+        "TDP": "65 W",
+        "intGraphics": "None",
+        "memSupport": "DDR4",
+        "PCI": "PCIe 4.0",
+        "image": "images/CPUs/R33300X.jpg",
+        "description": "Entry-level desktop processor suited for light gaming, everyday computing, and light productivity tasks. Can handle basic multitasking, web browsing, office applications, and light content creation. Budget-friendly choice for gamers and mainstream users.",
+        "prices": [
+            {"price": 89.97, "label": "Amazon.com"},
+            {"price": 100.00, "label": "MERCARi"}
+        ]
+    },
+    {
+        "id": 18,
+        "category": "RAM",
+        "brand": "Corsair",
+        "model": "Vengeance RGB Pro",
+        "size": "2*16 GB",
+        "speed": "3600 MHz",
+        "CL": "18",
+        "voltage": "1.35 V",
+        "compatibility": "Intel & AMD",
+        "image": "images/RAM/VRGBPro.jpg",
+        "description": "High-performance RAM suited for gaming, content creation, multitasking, and other demanding tasks.",
+        "prices": [
+            {"price": 81.99, "label": "Best Buy"},
+            {"price": 81.99, "label": "Amazon.com"},
+            {"price": 134.99, "label": "Corsair.com"}
+        ]
+    },
+    {
+        "id": 19,
+        "category": "RAM",
+        "brand": "Corsair",
+        "model": "Vengeance LPX RGB",
+        "size": "2*16 GB",
+        "speed": "5600 MHz",
+        "CL": "34",
+        "voltage": "1.35 V",
+        "compatibility": "Intel & AMD",
+        "image": "images/RAM/VLTXRGB.jpg",
+        "description": "High-performance RAM suited for gaming, content creation, multitasking, and other everyday computing tasks.",
+        "prices": [
+            {"price": 114.99, "label": "Newegg"},
+            {"price": 124.99, "label": "Best Buy"},
+            {"price": 164.99, "label": "Corsair.com"}
+        ]
+    },
+    {
+        "id": 20,
+        "category": "RAM",
+        "brand": "Corsair",
+        "model": "Vengeance RGB",
+        "size": "2*16 GB",
+        "speed": "5600 MHz",
+        "CL": "36",
+        "voltage": "1.35 V",
+        "compatibility": "Intel & AMD",
+        "image": "images/RAM/VRGB.jpg",
+        "description": "High-performance RAM suited for gaming, content creation, multitasking, and other everyday computing tasks.",
+        "prices": [
+            {"price": 112.99, "label": "Newegg"},
+            {"price": 124.99, "label": "Best Buy"},
+            {"price": 124.99, "label": "Corsair.com"}
+        ]
+    },
+    {
+        "id": 21,
+        "category": "RAM",
+        "brand": "Corsair",
+        "model": "Dominator Platinum RGB",
+        "size": "2*16 GB",
+        "speed": "4800 MHz",
+        "CL": "36",
+        "voltage": "1.35 V",
+        "compatibility": "Intel & AMD",
+        "image": "images/RAM/VDPRGB.jpg",
+        "description": "High-performance RAM suited for gaming, content creation, multitasking, and other everyday computing tasks.",
+        "prices": [
+            {"price": 142.99, "label": "Newegg"},
+            {"price": 154.99, "label": "Best Buy"},
+            {"price": 129.99, "label": "Corsair.com"}
+        ]
+    },
+    {
+        "id": 22,
+        "category": "RAM",
+        "brand": "G.Skill",
+        "model": "Trident Z Neo",
+        "size": "2*32 GB",
+        "speed": "4000 MHz",
+        "CL": "30",
+        "voltage": "1.35 V",
+        "compatibility": "Intel & AMD",
+        "image": "images/RAM/G.STZN.jpg",
+        "description": "High-performance RAM suited for gaming, content creation, multitasking, and other everyday computing tasks.",
+        "prices": [
+            {"price": 205.99, "label": "Newegg"},
+            {"price": 209.99, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 23,
+        "category": "RAM",
+        "brand": "G.Skill",
+        "model": "Ripjaws V",
+        "size": "2*8 GB",
+        "speed": "3600 MHz",
+        "CL": "16",
+        "voltage": "1.35 V",
+        "compatibility": "Intel & AMD",
+        "image": "images/RAM/G.SRV.jpg",
+        "description": "Mid-performance RAM suited for gaming, everyday computing, and light productivity tasks",
+        "prices": [
+            {"price": 40.99, "label": "Newegg"},
+            {"price": 40.99, "label": "Walmart"},
+            {"price": 40.99, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 24,
+        "category": "RAM",
+        "brand": "G.Skill",
+        "model": "Sniper X",
+        "size": "1*8 GB",
+        "speed": "3600 MHz",
+        "CL": "9",
+        "voltage": "1.35 V",
+        "compatibility": "Intel & AMD",
+        "image": "images/RAM/G.SSX.jpg",
+        "description": "Entry-level RAM suited for web browsin, office applications, and light gaming",
+        "prices": [
+            {"price": 43.65, "label": "MemoryC.com"}
+        ]
+    },
+    {
+        "id": 25,
+        "category": "RAM",
+        "brand": "G.Skill",
+        "model": "Aegis",
+        "size": "2*16 GB",
+        "speed": "3600 MHz",
+        "CL": "16",
+        "voltage": "1.35 V",
+        "compatibility": "Intel & AMD",
+        "image": "images/RAM/G.SA.jpg",
+        "description": "High-performance RAM suited for gaming, content creation, multitasking, and other demanding applications.",
+        "prices": [
+            {"price": 62.99, "label": "Newegg"},
+            {"price": 66.99, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 26,
+        "category": "RAM",
+        "brand": "Crucial",
+        "model": "Ballistix RGB",
+        "size": "2*8 GB",
+        "speed": "3600 MHz",
+        "CL": "16",
+        "voltage": "1.35 V",
+        "compatibility": "Intel & AMD",
+        "image": "images/RAM/CBRGB.jpeg",
+        "description": "Mid-performance RAM suited for gaming, content creation, multitasking, and other everyday computing tasks.",
+        "prices": [
+            {"price": 65.00, "label": "MERCARi"},
+            {"price": 97.95, "label": "Walmart"}
+        ]
+    },
+    {
+        "id": 27,
+        "category": "RAM",
+        "brand": "Crucial",
+        "model": "Ballistix MAX",
+        "size": "2*8 GB",
+        "speed": "5100 MHz",
+        "CL": "19",
+        "voltage": "1.35 V",
+        "compatibility": "Intel & AMD",
+        "image": "images/RAM/CBMAX.jpg",
+        "description": "High-performance RAM suited for gaming, content creation, multitasking, and other everyday computing tasks.",
+        "prices": [
+            {"price": 699.00, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 28,
+        "category": "RAM",
+        "brand": "Crucial",
+        "model": "Ballistix Sport LT",
+        "size": "2*8 GB",
+        "speed": "3200 MHz",
+        "CL": "16",
+        "voltage": "1.35 V",
+        "compatibility": "Intel & AMD",
+        "image": "images/RAM/CBSLT.jpg",
+        "description": "Mid-performance RAM suited for gaming, everyday computing, and light productivity tasks.",
+        "prices": [
+            {"price": 78.76, "label": "Newegg"},
+            {"price": 79.95, "label": "Walmart"}
+        ]
+    },
+    {
+        "id": 29,
+        "category": "RAM",
+        "brand": "Crucial",
+        "model": "Ballistix Elite",
+        "size": "2*8 GB",
+        "speed": "3600 MHz",
+        "CL": "16",
+        "voltage": "1.35 V",
+        "compatibility": "Intel & AMD",
+        "image": "images/RAM/CBE.jpg",
+        "description": "High-performance RAM suited for gaming, content creation, multitasking, and other everyday computing tasks.",
+        "prices": [
+            {"price": 183.36, "label": "Newegg"}
+        ]
+    },
+    {
+        "id": 30,
+        "category": "Motherboards",
+        "brand": "ASUS",
+        "model": "ROG Strix B550-F Gaming",
+        "chipset": "B550",
+        "memSupport": "4 x DDR4 DIMM slots, 128 GB of memory",
+        "expansion": "1 PCIe 4.0x16, 1 PCIe 3.0x16, 2 PCIe 3.0x1",
+        "ports": "1 USB 3.2 Gen 2 Type-C port, 1 USB 3.2 Gen 2 Type-A port, 2 USB 3.2 Gen 1 Type-A ports, 4 USB 2.0 ports",
+        "compatibility": "AMD Ryzen",
+        "image": "images/Motherboards/AROGS.jpg",
+        "description": "High-performance motherboard suited for gaming enthusiasts and PC builders who prioritize perforamnce and functionality in their gaming rigs.",
+        "prices": [
+            {"price": 159.99, "label": "ASUS"},
+            {"price": 159.99, "label": "Amazon.com"},
+            {"price": 159.99, "label": "Best Buy"}
+        ]
+    },
+    {
+        "id": 31,
+        "category": "Motherboards",
+        "brand": "ASUS",
+        "model": "Prime Z590-P",
+        "chipset": "Z590",
+        "memSupport": "4 x DDR4 DIMM slots, 128 GB of memory",
+        "expansion": "1 PCIe 4.0x16, 1 PCIe 3.0x16, 3 PCIe 3.0x1",
+        "ports": "1 USB 3.2 Gen 2x2 Type-C port, 1 USB 3.2 Gen 2 Type-A port, 2 USB 3.2 Gen 1 Type-A ports, 2 USB 2.0 ports",
+        "compatibility": "Intel",
+        "image": "images/Motherboards/APZA.jpg",
+        "description": "Mid-performance motherboard suited for mainstream users and PC builders who want reliable performance and functionality in their gaming rigs.",
+        "prices": [
+            {"price": 135.00, "label": "MERCARi"},
+            {"price": 236.47, "label": "Microless"}
+        ]
+    },
+    {
+        "id": 32,
+        "category": "Motherboards",
+        "brand": "ASUS",
+        "model": "TUF Gaming X570-Plus",
+        "chipset": "X570",
+        "memSupport": "4 x DDR4 DIMM slots, 128 GB of memory",
+        "expansion": "1 PCIe 4.0x16, 1 PCIe 4.0x16, 3 PCIe 4.0x1",
+        "ports": "1 USB 3.2 Gen 2 Type-C port, 1 USB 3.2 Gen 2 Type-A port, 2 USB 3.2 Gen 1 Type-A ports, 4 USB 2.0 ports",
+        "compatibility": "AMD Ryzen",
+        "image": "images/Motherboards/ATUFG.jpg",
+        "description": "Mid-performance motherboard suited for gamers and PC builders who want reliable performance and functionality in their gaming rigs.",
+        "prices": [
+            {"price": 192.89, "label": "Amazon.com"},
+            {"price": 192.99, "label": "Best Buy"},
+            {"price": 193.99, "label": "B&H Photo-Video-Audio"}
+        ]
+    },
+    {
+        "id": 33,
+        "category": "Motherboards",
+        "brand": "MSI",
+        "model": "MPG B550 Gaming Plus",
+        "chipset": "B550",
+        "memSupport": "4 x DDR4 DIMM slots, 128 GB of memory",
+        "expansion": "1 PCIe 4.0x16, 1 PCIe 3.0x16, 2 PCIe 3.0x1",
+        "ports": "1 USB 3.2 Gen 2 Type-C port, 1 USB 3.2 Gen 2 Type-A port, 2 USB 3.2 Gen 1 Type-A ports, 2 USB 2.0 ports",
+        "compatibility": "AMD Ryzen",
+        "image": "images/Motherboards/MSIMPG.jpg",
+        "description": "Mid-performance motherboard suited for gamers and PC builders who want reliable performance and functionality in their gaming rigs.",
+        "prices": [
+            {"price": 157.08, "label": "Amazon.com"},
+            {"price": 159.99, "label": "Newegg"},
+            {"price": 159.99, "label": "B&H Photo-Video-Audio"}
+        ]
+    },
+    {
+        "id": 34,
+        "category": "Motherboards",
+        "brand": "MSI",
+        "model": "MAG B560 Tomahawk WiFi",
+        "chipset": "B560",
+        "memSupport": "4 x DDR4 DIMM slots, 128 GB of memory",
+        "expansion": "2 PCIe 4.0x16, 3 PCIe 3.0x1",
+        "ports": "1 USB 3.2 Gen 2x2 Type-C port, 1 USB 3.2 Gen 2 Type-A port, 2 USB 3.2 Gen 1 Type-A ports, 2 USB 2.0 ports",
+        "compatibility": "Intel & AMD Ryzen",
+        "image": "images/Motherboards/MSIMAG.jpg",
+        "description": "Mid-performance motherboard suited for gamers and PC builders who want reliable performance and functionality in their gaming rigs.",
+        "prices": [
+            {"price": 199.99, "label": "Amazon.com"},
+            {"price": 337.35, "label": "SPW Industrial"}
+        ]
+    },
+    {
+        "id": 35,
+        "category": "Motherboards",
+        "brand": "MSI",
+        "model": "MEG X570 Unify",
+        "chipset": "X570",
+        "memSupport": "4 x DDR4 DIMM slots, 128 GB of memory",
+        "expansion": "3 PCIe 4.0x16, 2 PCIe 4.0x1",
+        "ports": "1 USB 3.2 Gen 2x2 Type-C port, 3 USB 3.2 Gen 2 Type-A port, 2 USB 3.2 Gen 1 Type-A ports, 2 USB 2.0 ports",
+        "compatibility": "AMD Ryzen",
+        "image": "images/Motherboards/MSIMEG.jpg",
+        "description": "High-performance motherboard suited for gaming enthusiasts and PC builders who prioritize perforamnce and functionality in their gaming rigs.",
+        "prices": [
+            {"price": 209.99, "label": "Newegg"},
+            {"price": 209.99, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 36,
+        "category": "Motherboards",
+        "brand": "Gigabyte",
+        "model": "B550 AORUS Elite AX",
+        "chipset": "B550",
+        "memSupport": "4 x DDR4 DIMM slots, 128 GB of memory",
+        "expansion": "1 PCIe 4.0x16, 1 PCIe 3.0x16, 2 PCIe 3.0x1",
+        "ports": "1 USB 3.2 Gen 2 Type-C port, 1 USB 3.2 Gen 2 Type-A port, 2 USB 3.2 Gen 1 Type-A ports, 4 USB 2.0 ports",
+        "compatibility": "AMD Ryzen",
+        "image": "images/Motherboards/GAE.jpg",
+        "description": "Mid-performance motherboard suited for gamers and PC builders who want reliable performance and functionality in their gaming rigs.",
+        "prices": [
+            {"price": 109.99, "label": "Newegg"},
+            {"price": 109.99, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 37,
+        "category": "Motherboards",
+        "brand": "Gigabyte",
+        "model": "X570 AORUS Elite WiFi",
+        "chipset": "X570",
+        "memSupport": "4 x DDR4 DIMM slots, 128 GB of memory",
+        "expansion": "1 PCIe 4.0x16, 1 PCIe 4.0x16, 2 PCIe 4.0x1",
+        "ports": "1 USB 3.2 Gen 2 Type-C port, 1 USB 3.2 Gen 2 Type-A port, 4 USB 3.2 Gen 1 Type-A ports, 4 USB 2.0 ports",
+        "compatibility": "AMD Ryzen",
+        "image": "images/Motherboards/GAE570.jpeg",
+        "description": "High-performance motherboard suited for gaming enthusiasts and PC builders who prioritize perforamnce and functionality in their gaming rigs.",
+        "prices": [
+            {"price": 168.00, "label": "Empower Laptop"},
+            {"price": 200.00, "label": "MERCARi"},
+            {"price": 279.99, "label": "Walmart"}
+        ]
+    },
+    {
+        "id": 38,
+        "category": "Motherboards",
+        "brand": "Gigabyte",
+        "model": "Z590 AORUS Elite",
+        "chipset": "Z590",
+        "memSupport": "4 x DDR4 DIMM slots, 128 GB of memory",
+        "expansion": "1 PCIe 4.0x16, 1 PCIe 4.0x16, 2 PCIe 3.0x1",
+        "ports": "1 USB 3.2 Gen 2x2 Type-C port, 1 USB 3.2 Gen 2 Type-A port, 4 USB 3.2 Gen 1 Type-A ports, 4 USB 2.0 ports",
+        "compatibility": "Intel",
+        "image": "images/Motherboards/GAE590.jpg",
+        "description": "High-performance motherboard suited for gaming enthusiasts and PC builders who prioritize perforamnce and functionality in their gaming rigs.",
+        "prices": [
+            {"price": 268.97, "label": "Mircoless"},
+            {"price": 276.53, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 39,
+        "category": "CoolingFans",
+        "brand": "Noctua",
+        "model": "NF-F12 PWM",
+        "airflow": "Silent",
+        "size": "120mm",
+        "connector": "4-pin PWM",
+        "speed": "300 - 1500 RPM",
+        "maxAcNoise": "22.4 dB",
+        "voltage": "12 V",
+        "warrenty": "6 years",
+        "image": "images/CoolingFans/NNFF12PWM.jpg",
+        "description": "High-performance Cooling fan suitable for various applications. Noctua are known for their quality, reliability, and quiet operation. ",
+        "prices": [
+            {"price": 23.52, "label": "QuietPC"},
+            {"price": 24.75, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 40,
+        "category": "CoolingFans",
+        "brand": "Noctua",
+        "model": "NF-A14 PWM",
+        "airflow": "Balanced",
+        "size": "140mm",
+        "connector": "4-pin PWM",
+        "speed": "300 - 1500 RPM",
+        "maxAcNoise": "24.6 dB",
+        "voltage": "12 V",
+        "warrenty": "6 years",
+        "image": "images/CoolingFans/NFA14PWM.jpg",
+        "description": "High-performance Cooling fan suitable for various applications. Noctua are known for their quality, reliability, and quiet operation. ",
+        "prices": [
+            {"price": 25.99, "label": "tech INN"},
+            {"price": 26.95, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 41,
+        "category": "CoolingFans",
+        "brand": "Noctua",
+        "model": "NF-S12B redux-1200 PWM",
+        "airflow": "Silent",
+        "size": "120mm",
+        "connector": "4-pin PWM",
+        "speed": "300 - 1500 RPM",
+        "maxAcNoise": "18.1 dB",
+        "voltage": "12 V",
+        "warrenty": "6 years",
+        "image": "images/CoolingFans/NFS12BPWM.jpg",
+        "description": "High-performance Cooling fan suitable for various applications. Noctua are known for their quality, reliability, and quiet operation. ",
+        "prices": [
+            {"price": 14.95, "label": "Newegg"},
+            {"price": 14.95, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 42,
+        "category": "CoolingFans",
+        "brand": "Corsair",
+        "model": "LL120 RGB",
+        "airflow": "High",
+        "size": "120mm",
+        "connector": "4-pin PWM",
+        "speed": "600 - 1500 RPM",
+        "maxAcNoise": "24.8 dB",
+        "voltage": "7-13.2 V",
+        "warrenty": "2 years",
+        "image": "images/CoolingFans/CLL120RGB.jpg",
+        "description": "Mid-performance cooling fan that is suitable for various applications. It will be a nice additon for users who to add RGB lighting effects to their system while maintaing a decent airflow and low noise levels. ",
+        "prices": [
+            {"price": 86.99, "label": "Amazon.com"},
+            {"price": 89.99, "label": "Corsair.com"},
+            {"price": 89.99, "label": "Best Buy"}
+        ]
+    },
+    {
+        "id": 43,
+        "category": "CoolingFans",
+        "brand": "Corsair",
+        "model": "ML120 Pro",
+        "airflow": "High",
+        "size": "120mm",
+        "connector": "4-pin PWM",
+        "speed": "400 - 2400 RPM",
+        "maxAcNoise": "37 dB",
+        "voltage": "7-13.2 V",
+        "warrenty": "5 years",
+        "image": "images/CoolingFans/CML120Pro.jpg",
+        "description": "High-performance Cooling fan suitable for applications that require high volumes of air that needs to be moved. Ideal for those who require efficient cooling in their systems. Great for users who prioritize asthetics while requiring moderate airflow for their system cooling needs.",
+        "prices": [
+            {"price": 24.87, "label": "Amazon.com"},
+            {"price": 27.33, "label": "Microless"},
+            {"price": 29.10, "label": "TechiSoft"}
+        ]
+    },
+    {
+        "id": 44,
+        "category": "CoolingFans",
+        "brand": "Corsair",
+        "model": "AF120 LED",
+        "airflow": "Balanced",
+        "size": "120mm",
+        "connector": "3 pin",
+        "speed": "352.19 CFM",
+        "maxAcNoise": "25.2 dB",
+        "voltage": "7-12 V",
+        "warrenty": "2 years",
+        "image": "images/CoolingFans/CLAF120LED.jpg",
+        "description": "Mid-performance cooling fan that is suitable for general-purpose applications. Great for those looking to prioritize aesthetics while requring moderate airflow. ",
+        "prices": [
+            {"price": 82.99, "label": "Amazon.com"},
+            {"price": 89.99, "label": "Newegg"},
+            {"price": 89.99, "label": "Corsair.com"}
+        ]
+    },
+    {
+        "id": 45,
+        "category": "CoolingFans",
+        "brand": "Cooler Master",
+        "model": "MasterFan MF120 Halo",
+        "airflow": "Balanced",
+        "size": "120mm",
+        "connector": "4-pin PWM",
+        "speed": "650 - 1800 RPM",
+        "maxAcNoise": "30 dB",
+        "voltage": "12 V",
+        "warrenty": "2 years",
+        "image": "images/CoolingFans/CMMF120.jpg",
+        "description": "Mid-performance cooling fan. Fantastic for those looking to prioritize aesthetics while requiring moderate airflow.",
+        "prices": [
+            {"price": 19.99, "label": "Walmart"},
+            {"price": 22.00, "label": "Amazon.com"},
+            {"price": 22.99, "label": "Newegg"}
+        ]
+    },
+    {
+        "id": 46,
+        "category": "CoolingFans",
+        "brand": "Cooler Master",
+        "model": "NSickleFlow 120 V2",
+        "airflow": "High",
+        "size": "120mm",
+        "connector": "3-pin",
+        "speed": "650 - 1800 RPM",
+        "maxAcNoise": "27 dB",
+        "voltage": "12 V",
+        "warrenty": "2 years",
+        "image": "images/CoolingFans/CMNSF120.jpg",
+        "description": "Mid-performance cooling fan that is suitable for various applications. Good balance between performance airflow with noise levels at a mid-level price point. ",
+        "prices": [
+            {"price": 9.99, "label": "Amazon.com"},
+            {"price": 10.99, "label": "Newegg"}
+        ]
+    },
+    {
+        "id": 47,
+        "category": "CoolingFans",
+        "brand": "Cooler Master",
+        "model": "MF120R ARGB",
+        "airflow": "Balanced",
+        "size": "120mm",
+        "connector": "4-pin PWM",
+        "speed": "650 - 2000 RPM",
+        "maxAcNoise": "31 dB",
+        "voltage": "12 V",
+        "warrenty": "2 years",
+        "image": "images/CoolingFans/CMMF120R.jpg",
+        "description": "Mid-performance cooling fan that is suitable for users who want to enhance visual appeal of their system. Though it may not be ideal for those looking for silent airflow, it will provide balanced airflow. ",
+        "prices": [
+            {"price": 49.99, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 48,
+        "category": "GPU",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 3090",
+        "size": "24GB GDDR6X",
+        "clockBoost": "1695 MHz",
+        "speed": "19.5 Gbps",
+        "TDP": "350 W",
+        "bandwidth": "936 GB/s",
+        "image": "images/GPUs/RTX3090.jpg",
+        "description": "High-performance graphics card designed and suited for gamers, content creators, and professionals with the demand for the best performance in gaming, 3D rendering, video editing, and much more. It's capable of 8K gaming, real-time ray tracing, AI-powered features, and support for the latest technologies. This is a flagship graphics card.",
+        "prices": [
+            {"price": 1290.00, "label": "Computizer"},
+            {"price": 1471.00, "label": "Amazon.com"},
+            {"price": 1499.00, "label": "Newegg"}
+        ]
+    },
+    {
+        "id": 49,
+        "category": "GPU",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 3080",
+        "size": "10GB GDDR6X",
+        "clockBoost": "1710 MHz",
+        "speed": "19 Gbps",
+        "TDP": "320 W",
+        "bandwidth": "760 GB/s",
+        "image": "images/GPUs/RTX3080.jpg",
+        "description": "High-performance graphics card designed and suited for gamers, content creators, and professionals with the demand for the best performance in gaming, 3D rendering, video editing, and much more. It offers exceptional gaming performance at high resolutions, real-time ray tracing, AI-powered features, and support for the latest gaming technologies.",
+        "prices": [
+            {"price": 679.00, "label": "Amazon.com"},
+            {"price": 849.99, "label": "DELL Technologies"}
+        ]
+    },
+    {
+        "id": 50,
+        "category": "GPU",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 3070",
+        "size": "8GB GDDR6",
+        "clockBoost": "1725 MHz",
+        "speed": "14 Gbps",
+        "TDP": "220 W",
+        "bandwidth": "448 GB/s",
+        "image": "images/GPUs/RTX3070.jpg",
+        "description": "High-performance graphics card designed and suited for gamers, content creators, and professionals with the demand for the best performance in gaming, 3D rendering, video editing, and much more. It's excellent at offering gaming performance at 1440p and can handle some games at 4k resolution. It also supports real-time ray tracing, AI-powered featurs, and the latest gaming technologies.",
+        "prices": [
+            {"price": 399.99, "label": "Amazon.com"},
+            {"price": 472.03, "label": "Walmart"}
+        ]
+    },
+    {
+        "id": 51,
+        "category": "GPU",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 3060 Ti",
+        "size": "8GB GDDR6",
+        "clockBoost": "1665 MHz",
+        "speed": "14 Gbps",
+        "TDP": "200 W",
+        "bandwidth": "448 GB/s",
+        "image": "images/GPUs/RTX3060Ti.jpg",
+        "description": "Mid-performance graphics card suited for gamers who want solid 1080p and 1440p gaming at an afforable price. It can handle some ray tracing experience and other advanced features like 3D rendering, and video editing.",
+        "prices": [
+            {"price": 610.00, "label": "Computizer"},
+            {"price": 610.00, "label": "Walmart"}
+        ]
+    },
+    {
+        "id": 52,
+        "category": "GPU",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 3060",
+        "size": "12GB GDDR6",
+        "clockBoost": "1777 MHz",
+        "speed": "15 Gbps",
+        "TDP": "170 W",
+        "bandwidth": "360 GB/s",
+        "image": "images/GPUs/RTX3060.jpg",
+        "description": "Mid-performance graphics card suited for gamers who want solid 1080p and 1440p gaming performance at an afforable price. It offers good value for gamers looking to experience ray tracing and other advanced features without breaking the bank.",
+        "prices": [
+            {"price": 269.00, "label": "Newegg"},
+            {"price": 299.99, "label": "Walmart"}
+        ]
+    },
+    {
+        "id": 53,
+        "category": "GPU",
+        "brand": "AMD",
+        "model": "Radeon RX 6900 XT",
+        "size": "16GB GDDR6",
+        "clockBoost": "2250 MHz",
+        "speed": "16 Gbps",
+        "TDP": "300 W",
+        "bandwidth": "512 GB/s",
+        "image": "images/GPUs/AMD6900XT.jpg",
+        "description": "High-performance graphics card designed and suited for gamers, content creators. It can support high resolution gaming including 4K gaming, real-time ray tracing, variable rate shading, and much more.",
+        "prices": [
+            {"price": 1328.24, "label": "SUNOL TECH"},
+            {"price": 1399.99, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 54,
+        "category": "GPU",
+        "brand": "AMD",
+        "model": "Radeon RX 6800 XT",
+        "size": "16GB GDDR6",
+        "clockBoost": "2250 MHz",
+        "speed": "16 Gbps",
+        "TDP": "300 W",
+        "bandwidth": "512 GB/s",
+        "image": "images/GPUs/AMD6800XT.jpg",
+        "description": "High-performance graphics card designed and suited for gamers, content creators. It can support high resolution gaming including 4K gaming, real-time ray tracing, variable rate shading, and much more.",
+        "prices": [
+            {"price": 379.99, "label": "Newegg"},
+            {"price": 390.63, "label": "Amazon.com"},
+            {"price": 399.99, "label": "Best Buy"}
+        ]
+    },
+    {
+        "id": 55,
+        "category": "GPU",
+        "brand": "AMD",
+        "model": "Radeon RX 6700 XT",
+        "size": "12GB GDDR6",
+        "clockBoost": "2581 Mhz",
+        "speed": "16 Gbps",
+        "TDP": "230 W",
+        "bandwidth": "384 GB/s",
+        "image": "images/GPUs/AMD6700XT.jpg",
+        "description": "Mid-performance graphics card suited for gamers who want solid 1080p and 1440p gaming performance at an afforable price. It offers good value for gamers looking to experience ray tracing and other advanced features without breaking the bank.",
+        "prices": [
+            {"price": 329.99, "label": "Amazon.com"},
+            {"price": 339.99, "label": "Best Buy"}
+        ]
+    },
+    {
+        "id": 56,
+        "category": "GPU",
+        "brand": "AMD",
+        "model": "Radeon RX 6600 XT",
+        "size": "8GB GDDR6",
+        "clockBoost": "2589 MHz",
+        "speed": "16 Gbps",
+        "TDP": "160 W",
+        "bandwidth": "256 GB/s",
+        "image": "images/GPUs/AMD6600XT.jpg",
+        "description": "Mid-performance graphics card suited for gamers who want solid 1080p and 1440p gaming performance at an afforable price. It offers good value for gamers looking to experience ray tracing and other advanced features without breaking the bank.",
+        "prices": [
+            {"price": 229.99, "label": "Newegg"},
+            {"price": 229.99, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 57,
+        "category": "SSD&HDD",
+        "brand": "Samsung",
+        "model": "970 Evo Plus",
+        "form": "SSD",
+        "size": "2 TB",
+        "readSpeed": "3,500 MB/s",
+        "writeSpeed": "3,300 MB/s",
+        "warrenty": "5 years",
+        "image": "images/SSD&HDD/S970EVO+.jpg",
+        "description": "High-performance SSD that offers blazing fast read and write speeds, making it ideal for demainding workloads such as gaming, content creation, and professional applications.",
+        "prices": [
+            {"price": 149.99, "label": "Best Buy"},
+            {"price": 149.99, "label": "B&H Photo-Video-Audio"},
+            {"price": 159.99, "label": "Newegg"}
+        ]
+    },
+    {
+        "id": 58,
+        "category": "SSD&HDD",
+        "brand": "Samsung",
+        "model": "870 Evo",
+        "form": "SSD",
+        "size": "2 TB",
+        "readSpeed": "560 MB/s",
+        "writeSpeed": "530 MB/s",
+        "warrenty": "5 years",
+        "image": "images/SSD&HDD/S870EVO.jpg",
+        "description": "Mid-performance SSD that offers reliable and consistent performance for everday computing tasks. Along with the solid read and write speeds, its capable of handling system booting, software loading, and typical data storage.",
+        "prices": [
+            {"price": 159.99, "label": "Best Buy"},
+            {"price": 159.99, "label": "B&H Photo-Video-Audio"},
+            {"price": 159.99, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 59,
+        "category": "SSD&HDD",
+        "brand": "Samsung",
+        "model": "T5 Portable",
+        "form": "SSD",
+        "size": "1 TB",
+        "readSpeed": "540 MB/s",
+        "writeSpeed": "540 MB/s",
+        "warrenty": "3 years",
+        "image": "images/SSD&HDD/ST5.jpg",
+        "description": "High-performance external SSD that offers fast an reliable storage for users who require high-speed data transfer and portability.",
+        "prices": [
+            {"price": 319.99, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 60,
+        "category": "SSD&HDD",
+        "brand": "WD",
+        "model": "Blue SN550",
+        "form": "SSD",
+        "size": "250 GB",
+        "readSpeed": "2,400 MB/s",
+        "writeSpeed": "1,950 MB/s",
+        "warrenty": "5 years",
+        "image": "images/SSD&HDD/WDBSN550.jpg",
+        "description": "Entry-level SSD that offers fast performance and reliability at an affordable price. It's suitable for everyday computing tasks, gaming, and content creation.",
+        "prices": [
+            {"price": 37.50, "label": "Walmart"},
+            {"price": 37.50, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 61,
+        "category": "SSD&HDD",
+        "brand": "WD",
+        "model": "Black SN750",
+        "form": "SSD",
+        "size": "1 TB",
+        "readSpeed": "3,470 MB/s",
+        "writeSpeed": "3,000 MB/s",
+        "warrenty": "5 years",
+        "image": "images/SSD&HDD/WDBSN750.jpg",
+        "description": "High-performance SSD designed for enthusiasts, gamers, and content creators who demand top-tier performance and reliability. It's perfect for demanding workloads such as gaming, 3D rendering, video editing, and multitasking.",
+        "prices": [
+            {"price": 53.99, "label": "Amazon.com"},
+            {"price": 73.49, "label": "Walmart"}
+        ]
+    },
+    {
+        "id": 62,
+        "category": "SSD&HDD",
+        "brand": "WD",
+        "model": "Elements Portable",
+        "form": "HDD",
+        "size": "5 TB",
+        "readSpeed": "5,000 MB/s",
+        "writeSpeed": "5,000 MB/s",
+        "warrenty": "3 years",
+        "image": "images/SSD&HDD/WDEP.jpg",
+        "description": "Entry-level HDD offering reliable and affordable storage for users who need to back up or expand their storage capacity. Providing fast data transfer speeds, it's suitable for transferring large files, storing multimedia content, and backing up important data.",
+        "prices": [
+            {"price": 115.00, "label": "Walmart"},
+            {"price": 129.99, "label": "Amazon.com"},
+            {"price": 129.99, "label": "Western Digital"}
+        ]
+    },
+    {
+        "id": 63,
+        "category": "SSD&HDD",
+        "brand": "Seagate",
+        "model": "FireCuda 520",
+        "form": "SSD",
+        "size": "2 TB",
+        "readSpeed": "5,000 MB/s",
+        "writeSpeed": "4,400 MB/s",
+        "warrenty": "5 years",
+        "image": "images/SSD&HDD/SFC520.jpg",
+        "description": "High-performance SSD designed for enthusiasts, gamers, and content creators who demand top-tier performance and reliability. It's perfect for demanding workloads such as gaming, 3D rendering, video editing, and multitasking.",
+        "prices": [
+            {"price": 187.99, "label": "Amazon.com"},
+            {"price": 199.99, "label": "Seagate"}
+        ]
+    },
+    {
+        "id": 64,
+        "category": "SSD&HDD",
+        "brand": "Seagate",
+        "model": "Barracuda",
+        "form": "SSD",
+        "size": "2 TB",
+        "readSpeed": "560 MB/s",
+        "writeSpeed": "540 MB/s",
+        "warrenty": "5 years",
+        "image": "images/SSD&HDD/SBSSD.jpg",
+        "description": "Mid-performance SSD offering a balance of performance, reliability, and affordability. Solid performance for web browsing, document editing, multimedia consumption, and light gaming.",
+        "prices": [
+            {"price": 125.99, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 65,
+        "category": "SSD&HDD",
+        "brand": "Seagate",
+        "model": "Expansion Portable",
+        "form": "HDD",
+        "size": "4 TB",
+        "readSpeed": "5,000 MB/s",
+        "writeSpeed": "5,000 MB/s",
+        "warrenty": "2 years",
+        "image": "images/SSD&HDD/SEP.jpg",
+        "description": "Entry-level HDD offering simple and convenient storage solutions for users who need to back up or expand their storage capacity. Ideal for users who need to store and transport large amounts of data, but don't require the fastest data transfer speeds.",
+        "prices": [
+            {"price": 89.99, "label": "Seagate"},
+            {"price": 99.99, "label": "Amazon.com"},
+            {"price": 163.76, "label": "Walmart"}
+        ]
+    },
+    {
+        "id": 66,
+        "category": "SSD&HDD",
+        "brand": "Seagate",
+        "model": "BarraCuda",
+        "form": "HDD",
+        "size": "16 TB",
+        "readSpeed": "210 MB/s",
+        "writeSpeed": "210 MB/s",
+        "warrenty": "5 years",
+        "image": "images/SSD&HDD/SBHDD.jpg",
+        "description": "High-performance HDD that is suitable for demanding applications such as gaming, multimedia editing, and workstation use.",
+        "prices": [
+            {"price": 239.95, "label": "Newegg"},
+            {"price": 299.99, "label": "Seagate"}
+        ]
+    },
+    {
+        "id": 67,
+        "category": "SSD&HDD",
+        "brand": "Seagate",
+        "model": "Ironwolf",
+        "form": "HDD",
+        "size": "18 TB",
+        "readSpeed": "256 MB/s",
+        "writeSpeed": "256 MB/s",
+        "warrenty": "5 years",
+        "image": "images/SSD&HDD/SIW.jpg",
+        "description": "Mid-performance HDD suitable for use in home, small business, and enterprise environments.",
+        "prices": [
+            {"price": 529.99, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 68,
+        "category": "PSU",
+        "brand": "Corsair",
+        "model": "RM850X",
+        "wattage": "850 W",
+        "rating": "80+ Gold",
+        "warrenty": "10 years",
+        "image": "images/PSU/CRM850X.jpg",
+        "description": "High-performance PSU designed for enthusiasts and gamers who demand reliable and efficient power delivery for their high-end systems.",
+        "prices": [
+            {"price": 134.99, "label": "Amazon.com"},
+            {"price": 149.99, "label": "Best Buy"},
+            {"price": 149.99, "label": "Corsair.com"}
+        ]
+    },
+    {
+        "id": 69,
+        "category": "PSU",
+        "brand": "Corsair",
+        "model": "CX650M",
+        "wattage": "650 W",
+        "rating": "80+ Bronze",
+        "warrenty": "5 years",
+        "image": "images/PSU/CCX650M.jpg",
+        "description": "Mid-performance PSU designed for reliable power delivery in mainstream gaming and work PC builds.",
+        "prices": [
+            {"price": 69.99, "label": "Amazon.com"},
+            {"price": 69.99, "label": "Newegg"},
+            {"price": 79.99, "label": "B&H Photo-Video-Audio"}
+        ]
+    },
+    {
+        "id": 70,
+        "category": "PSU",
+        "brand": "Corsair",
+        "model": "SF750 Platinum",
+        "wattage": "750 W",
+        "rating": "80+ Plus Platinum",
+        "warrenty": "7 years",
+        "image": "images/PSU/CSF750.jpg",
+        "description": "High-performance PSU designed for small form factor builds where space is limited, but performance is crucial. It's ideal for powering high-end gaming rigs, and compact builds.",
+        "prices": [
+            {"price": 169.99, "label": "Amazon.com"},
+            {"price": 169.99, "label": "Newegg"},
+            {"price": 184.99, "label": "Corsair.com"}
+        ]
+    },
+    {
+        "id": 71,
+        "category": "PSU",
+        "brand": "EVGA",
+        "model": "SuperNOVA 850 G5",
+        "wattage": "850 W",
+        "rating": "80+ Plus Gold",
+        "warrenty": "10 years",
+        "image": "images/PSU/EVGA850G5.jpg",
+        "description": "High-performance PSU designed for enthusiasts and gamers who demand reliable and efficient power delivery for their high-end systems.",
+        "prices": [
+            {"price": 134.99, "label": "Amazon.com"},
+            {"price": 193.38, "label": "Office Depot"}
+        ]
+    },
+    {
+        "id": 72,
+        "category": "PSU",
+        "brand": "EVGA",
+        "model": "600 BQ",
+        "wattage": "600 W",
+        "rating": "80+ Plus Bronze",
+        "warrenty": "3 years",
+        "image": "images/PSU/EVGA600BQ.jpg",
+        "description": "Entry-level PSU designed for budget-conscious users who need a reliable power supply for their basic computing needs.",
+        "prices": [
+            {"price": 90.95, "label": "ATIN USA"},
+            {"price": 149.95, "label": "bonanza"}
+        ]
+    },
+    {
+        "id": 73,
+        "category": "PSU",
+        "brand": "Seasonic",
+        "model": "Focus GX-750",
+        "wattage": "750 W",
+        "rating": "80+ Plus Gold",
+        "warrenty": "10 years",
+        "image": "images/PSU/SFGX750.jpg",
+        "description": "High-performance PSU designed for enthusiasts and gamers who demand reliable and efficient power delivery for their high-end systems.",
+        "prices": [
+            {"price": 109.99, "label": "Amazon.com"},
+            {"price": 109.99, "label": "Walmart"}
+        ]
+    },
+    {
+        "id": 74,
+        "category": "PSU",
+        "brand": "Seasonic",
+        "model": "Prime TX-1000",
+        "wattage": "1000 W",
+        "rating": "80+ Plus Titanium",
+        "warrenty": "12 years",
+        "image": "images/PSU/SPTX1000.jpg",
+        "description": "High-performance PSU designed for enthusiasts, professionals, and gamers who demand the highest reliability and efficient power delivery for their high-end systems.",
+        "prices": [
+            {"price": 304.99, "label": "Newegg"},
+            {"price": 328.52, "label": "Walmart"},
+            {"price": 439.99, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 75,
+        "category": "Cases",
+        "brand": "NZXT",
+        "model": "H510",
+        "form": "ATX Mid Tower",
+        "motherboardSup": "Mini-ITX, MicroATX, ATX",
+        "material": "Steel, Tempered Glass",
+        "size": "210 x 460 x 428 mm (WxHxD)",
+        "expansion": "7 slots",
+        "image": "images/Cases/NZXTH510.jpg",
+        "description": "Mid-performance computer case that offers a blend of style, functionality, and compatibility. It's a versatile and aesthetically pleasing mid-tower case suitable for various builds, including gaming PCs, workstations, and multimedia setups.",
+        "prices": [
+            {"price": 89.99, "label": "Amazon.com"},
+            {"price": 89.99, "label": "Newegg"}
+        ]
+    },
+    {
+        "id": 76,
+        "category": "Cases",
+        "brand": "NZXT",
+        "model": "H210",
+        "form": "ATX Mid Tower",
+        "motherboardSup": "Mini-ITX, MicroATX, ATX",
+        "material": "Steel, Tempered Glass",
+        "size": "210 x 460 x 428 mm (WxHxD)",
+        "expansion": "7 slots",
+        "image": "images/Cases/NZXTH210.jpg",
+        "description": "Mid-performance computer case that offers a blend of style, functionality, and compatibility. It's a versatile and aesthetically pleasing mid-tower case suitable for various builds, including gaming PCs, workstations, and multimedia setups.",
+        "prices": [
+            {"price": 116.58, "label": "Walmart"},
+            {"price": 120.53, "label": "Microless"}
+        ]
+    },
+    {
+        "id": 77,
+        "category": "Cases",
+        "brand": "NZXT",
+        "model": "H710i",
+        "form": "ATX Mid Tower",
+        "motherboardSup": "Mini-ITX, MicroATX, ATX, EATX",
+        "material": "Steel, Tempered Glass",
+        "size": "210 x 516 x 494 mm (WxHxD)",
+        "expansion": "7+2 slots",
+        "image": "images/Cases/NZXTH710i.jpg",
+        "description": "High-performance computer case that offers an abundance of features and capabilites for enthusiasts and gamers who demand top-tier performance and customization options for their builds. It provides ample space for hardware components, extensive cooling support, and advanced cable management options.",
+        "prices": [
+            {"price": 198.89, "label": "Microless"}
+        ]
+    },
+    {
+        "id": 78,
+        "category": "Cases",
+        "brand": "Fractal Design",
+        "model": "Meshify C",
+        "form": "ATX Mid Tower",
+        "motherboardSup": "Mini-ITX, MicroATX, ATX",
+        "material": "Steel, Tempered Glass",
+        "size": "212 x 395 x 440 mm (WxHxD)",
+        "expansion": "7 slots",
+        "image": "images/Cases/FDMC.jpg",
+        "description": "Mid-performance computer case that offers a balance of performance, functionality, and affordability, making it suitable for a wide range of PC builds, including gaming rigs, workstations, and multimedia setups.",
+        "prices": [
+            {"price": 99.99, "label": "B&H Photo-Video-Audio"},
+            {"price": 109.46, "label": "Office Depot"},
+            {"price": 118.70, "label": "Walmart"}
+        ]
+    },
+    {
+        "id": 79,
+        "category": "Cases",
+        "brand": "Fractal Design",
+        "model": "Define Nano S",
+        "form": "Mini-ITX Tower",
+        "motherboardSup": "Mini-ITX",
+        "material": "Steel, Plastic, Sound-dampening material",
+        "size": "203 x 330 x 400 mm (WxHxD)",
+        "expansion": "2 slots",
+        "image": "images/Cases/FDDNS.jpg",
+        "description": "Mid-performance computer case designed for users seeking a compact, yet capable Mini-ITX tower that offers a balance of performance, silence, and aesthetics.",
+        "prices": [
+            {"price": 151.79, "label": "Grooves.land"},
+            {"price": 160.99, "label": "bigamart.com"}
+        ]
+    },
+    {
+        "id": 80,
+        "category": "Cases",
+        "brand": "Fractal Design",
+        "model": "Define 7",
+        "form": "ATX Mid Tower",
+        "motherboardSup": "Mini-ITX, MicroATX, ATX, EATX",
+        "material": "Steel, Tempered Glass, Sound-dampening material",
+        "size": "240 x 547 x 475 mm (WxHxD)",
+        "expansion": "7+2 slots",
+        "image": "images/Cases/FDD7.jpg",
+        "description": "Mid-performance computer case that offers a blend of style, functionality, and compatibility. It's a versatile and aesthetically pleasing mid-tower case suitable for various builds, including gaming PCs, workstations, and multimedia setups.",
+        "prices": [
+            {"price": 179.99, "label": "B&H Photo-Video-Audio"},
+            {"price": 179.99, "label": "Newegg"},
+            {"price": 207.63, "label": "Office Depot"}
+        ]
+    },
+    {
+        "id": 81,
+        "category": "Cases",
+        "brand": "Corsair",
+        "model": "4000D Airflow",
+        "form": "ATX Mid Tower",
+        "motherboardSup": "Mini-ITX, MicroATX, ATX",
+        "material": "Steel, Tempered Glass",
+        "size": "230 x 466 x 453 mm (WxHxD)",
+        "expansion": "7 slots",
+        "image": "images/Cases/C4000DA.jpg",
+        "description": "Mid-performance computer case designed for users seeking a well-balanced blend of performance, airflow, and aesthetics for their PC builds.",
+        "prices": [
+            {"price": 89.99, "label": "Best Buy"},
+            {"price": 104.99, "label": "Amazon.com"},
+            {"price": 104.99, "label": "Corsair.com"}
+        ]
+    },
+    {
+        "id": 82,
+        "category": "Cases",
+        "brand": "Corsair",
+        "model": "Crystal Series 280X RGB",
+        "form": "MicroATX Cube",
+        "motherboardSup": "Mini-ITX, MicroATX",
+        "material": "Steel, Tempered Glass",
+        "size": "398 x 276 x 351 mm (WxHxD)",
+        "expansion": "4 slots",
+        "image": "images/Cases/CCS280X.jpg",
+        "description": "Mid-performance computer case designed for users seeking a compact yet visually striking case with RGB lighting and tempered glass panels.",
+        "prices": [
+            {"price": 184.99, "label": "Amazon.com"},
+            {"price": 201.37, "label": "Newegg"}
+        ]
+    },
+    {
+        "id": 83,
+        "category": "Cases",
+        "brand": "Corsair",
+        "model": "Obsidian Series 1000D",
+        "form": "Super Tower",
+        "motherboardSup": "Mini-ITX, MicroATX, ATX, EATX, XL-ATX",
+        "material": "Steel, Aluminum, Tempered Glass",
+        "size": "307 x 693 x 697 mm (WxHxD)",
+        "expansion": "8 slots",
+        "image": "images/Cases/COS.jpg",
+        "description": "High-performance computer case designed for users seeking an ultra-premium and feature rich chassis for building extreme gaming rigs, elaborate liquid-cooling setups, or professional workstations..",
+        "prices": [
+            {"price": 503.01, "label": "Amazon.com"},
+            {"price": 524.99, "label": "Newegg"},
+            {"price": 514.99, "label": "B&H Photo-Video-Audio"}
+        ]
+    },
+    {
+        "id": 84,
+        "category": "Prebuilt",
+        "brand": "Dell",
+        "model": "OptiPlex 7070 Micro",
+        "usage": "Office",
+        "processor": "Intel Core i7-9700T (8 cores, 8 threads, up to 4.3 GHz)",
+        "graphics": "Integrated Intel UHD Graphics 630",
+        "memory": "16GB DDR4 RAM (up to 64 GB)",
+        "storage": "256GB SSD",
+        "os": "Windows 10 Pro (64-bit)",
+        "size": "Height: 18.2cm, Width: 3.6cm, Depth: 17.8cm",
+        "image": "images/Prebuilt/DOP7070M.jpg",
+        "description": "Entry-level desktop computer designed for business use. It is well-suited for business users who need a reliable and efficient desktop solution for office work, administrative tasks, web browsing, email, and general office productivity.",
+        "prices": [
+            {"price": 501.99, "label": "Newegg"}
+        ]
+    },
+    {
+        "id": 85,
+        "category": "Prebuilt",
+        "brand": "HP",
+        "model": "ProDesk 600 G5 Mini",
+        "usage": "Office",
+        "processor": "Intel Core i5-9500T (6 cores, 6 threads, up to 3.70 GHz)",
+        "graphics": "Integrated Intel UHD Graphics 630",
+        "memory": "8GB DDR4 RAM (up to 64 GB)",
+        "storage": "256GB SSD",
+        "os": "Windows 10 Pro (64-bit)",
+        "size": "Height: 3.94cm, Width: 17.7cm, Depth: 17.5cm",
+        "image": "images/Prebuilt/HPPD600G5M.jpg",
+        "description": "Entry-level desktop computer designed for business users who need a compact and efficient desktop solution for office work, administrative tasks, web browsing, email, and general office productivity.",
+        "prices": [
+            {"price": 219.20, "label": "Amazon.com"},
+            {"price": 383.99, "label": "Office Depot"}
+        ]
+    },
+    {
+        "id": 86,
+        "category": "Prebuilt",
+        "brand": "Lenovo",
+        "model": "ThinkCentre M720q",
+        "usage": "Office",
+        "processor": "Intel Core i5-8400T (6 cores, 6 threads, up to 3.30 GHz)",
+        "graphics": "Integrated Intel UHD Graphics 630",
+        "memory": "8GB DDR4 RAM (up to 32 GB)",
+        "storage": "256GB SSD",
+        "os": "Windows 10 Pro (64-bit)",
+        "size": "Height: 3.94cm, Width: 17.9cm, Depth: 18.29cm",
+        "image": "images/Prebuilt/LTCM720q.jpg",
+        "description": "Entry-level desktop computer that is space-saving solution for small to medium-sized businesses, offering efficient performance, security features, and easy manageability.",
+        "prices": [
+            {"price": 277.99, "label": "PCLiquidations"},
+            {"price": 280.00, "label": "Amazon.com"}
+        ]
+    },
+    {
+        "id": 87,
+        "category": "Prebuilt",
+        "brand": "HP",
+        "model": "EliteDesk 705 G5 Mini",
+        "usage": "Office",
+        "processor": "AMD Ryzen 5 pro 3400GE (4 cores, 8 threads, up to 3.80 GHz)",
+        "graphics": "Integrated AMD Radeon Vega Graphics",
+        "memory": "8GB DDR4 RAM (up to 32 GB)",
+        "storage": "256GB SSD",
+        "os": "Windows 10 Pro (64-bit)",
+        "size": "Height: 3.45cm, Width: 17.7cm, Depth: 17.5cm",
+        "image": "images/Prebuilt/HPED705G5M.jpg",
+        "description": "Entry-level desktop computer that is space-saving solution for small to medium-sized businesses, offering efficient performance, security features, and easy manageability.",
+        "prices": [
+            {"price": 1482.56, "label": "ShopBLT.com"},
+            {"price": 1490.31, "label": "IT Devices"}
+        ]
+    },
+    {
+        "id": 88,
+        "category": "Prebuilt",
+        "brand": "Alienware",
+        "model": "Aurora R12",
+        "usage": "Gaming",
+        "processor": "Intel Core i9-11900F (8 cores, 16 threads, up to 5.30 GHz)",
+        "graphics": "NVIDIA GeForce RTX 3060 Ti",
+        "memory": "18GB DDR4 RANM(up to 128 GB)",
+        "storage": "512GB SSD",
+        "os": "Windows 10 Home or Windows 10 Pro (64-bit)",
+        "size": "Height: 47.252cm, Width: 22.28cm, Depth: 43.92cm",
+        "image": "images/Prebuilt/AAR12.jpg",
+        "description": "High-performance gaming desktop designed for enthusiasts and gamers who demand top-tier performance. It offers premium build quality, and advanced features tailored for those who want the best gaming experience possible.",
+        "prices": [
+            {"price": 1787.41, "label": "Amazon.com"},
+            {"price": 2623.65, "label": "Newegg"}
+        ]
+    },
+    {
+        "id": 89,
+        "category": "Prebuilt",
+        "brand": "CyberPowerPC",
+        "model": "Gamer Xtreme VR",
+        "usage": "Gaming",
+        "processor": "Intel Core i7-11700F (8 cores, 16 threads, up to 4.90 GHz)",
+        "graphics": "NVIDIA GeForce GTX 1660 Super",
+        "memory": "8GB DDR4 RAN (up to 32 GB)",
+        "storage": "500GB SSD",
+        "os": "Windows 10 Home or Windows 10 Pro (64-bit)",
+        "size": "Depends on case",
+        "image": "images/Prebuilt/CPPGXVR.jpg",
+        "description": "Mid-performance gaming desktop designed for gamers who seek reliable performance without breaking the bank. It offers decent gaming performance, ample storage, and customizable configurations.",
+        "prices": [
+            {"price": 1299.99, "label": "Amazon.com"},
+            {"price": 1449.99, "label": "Newegg"},
+            {"price": 1639.00, "label": "CyberPowerPC"}
+        ]
+    },
+    {
+        "id": 90,
+        "category": "Prebuilt",
+        "brand": "MSI",
+        "model": "MPG Trident 3",
+        "processor": "Intel Core i7-12700T (6 cores, 12 threads, up to 4.6 GHz)",
+        "graphics": "NVIDIA GeForce RTX 3060",
+        "memory": "16GB DDR4 RAN (up to 64 GB)",
+        "storage": "512GB SSD",
+        "os": "Windows 11",
+        "size": "Depends on case",
+        "image": "images/Prebuilt/MSIMPG.jpg",
+        "description": "Mid-performance gaming desktop designed for gamers who want a compact yet powerful system..",
+        "prices": [
+            {"price": 799.99, "label": "Newegg"},
+            {"price": 1399.99, "label": "Adorama"}
+        ]
+    },
+    {
+        "id": 91,
+        "category": "Prebuilt",
+        "brand": "HP",
+        "model": "ENVY 32 All-in-One",
+        "usage": "Content Creation",
+        "processor": "Intel Core i7-9700 (8 cores, 8 threads, up to 4.70 GHz)",
+        "graphics": "Integrated Intel UHD Graphics 630",
+        "memory": "16GB DDR4 RAN (up to 32 GB)",
+        "storage": "1TB SSD",
+        "os": "Windows 10 Home or Windows 10 Pro (64-bit)",
+        "size": "Height: 54.08cm, Width: 80.01cm, Depth: 20.32cm",
+        "image": "images/Prebuilt/HPENVY.jpg",
+        "description": "High-performance desktop designed for users who require powerful computing capabilities and a premium multimedia experience. Offers top-notch performance, immersive multimedia features, and a stylish design.",
+        "prices": [
+            {"price": 899.00, "label": "Amazon.com"},
+            {"price": 1999.99, "label": "HP"}
+        ]
+    },
+    {
+        "id": 92,
+        "category": "Prebuilt",
+        "brand": "Dell",
+        "model": "XPS Tower Special Edition",
+        "usage": "Content Creation",
+        "processor": "Intel Core i7-11700K (8 cores, 16 threads, up to 5.00 GHz)",
+        "graphics": "NVIDIA GeForce RTX 3060 Ti",
+        "memory": "16GB DDR4 RAM (up to 64 GB)",
+        "storage": "512GB SSD",
+        "os": "Windows 10 Pro (64-bit)",
+        "size": "Height: 40.92cm, Width: 36.47cm, Depth: 17.46cm",
+        "image": "images/Prebuilt/DELLXPS.jpg",
+        "description": "High-performance desktop designed for users who require top-tier computing power for demanding tasks such as gaming, content creation, and productivity. It offers ample storage and memory options, customizable configurations, and a sleek design that complements any workspace.",
+        "prices": [
+            {"price": 1082.99, "label": "Amazon.com"},
+            {"price": 1099.99, "label": "Dell"},
+            {"price": 1149.99, "label": "Best Buy"}
+        ]
+    },
+    {
+        "id": 93,
+        "category": "Prebuilt",
+        "brand": "Lenovo",
+        "model": "Legion Tower 5i",
+        "usage": "Content Creation",
+        "processor": "AMD Ryzen 5 7600 (6 cores, 12 threads, up to 5.30 GHz)",
+        "graphics": "NVIDIA GeForce RTX 4070 12 GB GDDR6X",
+        "memory": "8GB DDR4 RAN (up to 32 GB)",
+        "storage": "512GB SSD",
+        "os": "Windows 10 Home or Windows 10 Pro (64-bit)",
+        "size": "Depends on case",
+        "image": "images/Prebuilt/LLT5i.jpg",
+        "description": "Mid-performance desktop suited for casual gaming, productivity tasks, and multimedia consumption.",
+        "prices": [
+            {"price": 1249.99, "label": "Best Buy"},
+            {"price": 1309.99, "label": "Lenovo"}
+        ]
+    }
+]

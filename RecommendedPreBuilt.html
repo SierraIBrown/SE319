@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommended Prebuilt</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="main-menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#" class="dropdown">PC Parts</a>
+                <ul class="dropdown-menu">
+                    <li><a href="./CPU.html">CPU</a></li>
+                    <li><a href="./RAM.html">RAM</a></li>
+                    <li><a href="./Motherboards.html">Motherboards</a></li>
+                    <li><a href="./CoolingFans.html">Cooling Fans</a></li>
+                    <li><a href="./GPU.html">GPU</a></li>
+                    <li><a href="./SSD&HardDrive.html">SSD/Hard Drives</a></li>
+                    <li><a href="./PowerSource.html">Power Sources</a></li>
+                    <li><a href="./Cases.html">Cases</a></li>
+                    <li><a href="./RecommendedPreBuilt.html">Recommended Prebuilt</a></li>
+                </ul>
+            </li>
+            <li><a href="./AboutUs.html">About Us</a></li>
+            <li><a href="./YourList.html">Your List</a></li>
+        </ul>
+    </nav>
+    <div class="title-container">
+        <h1 class="title">Recommended Prebuilts</h1>
+    </div>
+    <div class="description">
+        <p>
+            Too indecisive about what you want, or not tech savvy enough?
+            Not to worry! We've provided for you some customized prebuilt computers based on the different necessities one may have.
+        </p>
+    </div>
+    <div class="sort-dropdown">
+        <label for="sort-options">Sort By:</label>
+        <select id="sort-options">
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="bfb">Bang For Buck</option>
+        </select>
+    </div>
+    <div class="container">
+        <aisde class="filter-sidebar">
+            <div class="filter-container">
+                <h2>Filters</h2>
+                <section class="filter-section">
+                    <h3>Brand</h3>
+                    <label>
+                        <input type="checkbox" name="brand" value="Dell">Dell<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="brand" value="HP">HP<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="brand" value="Lenovo">Lenovo<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="brand" value="ASUS">ASUS<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="brand" value="MSI">MSI
+                    </label>
+                </section>
+                <section class="filter-section">
+                    <h3>Usage Type:</h3>
+                    <label>
+                        <input type="checkbox" name="usage" value="Office">Office Use<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="usage" value="Gaming">Gaming<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="usage" value="Content Creation">Content Creation
+                    </label>
+                </section>
+                <div class="filter-section">
+                    <h3>Price Range</h3>
+                    <div class="price-range-bar">
+                        <div class="markers">
+                            <div class="marker marker-min">$0</div>
+                            <div class="marker marker-max">$5000</div>
+                        </div>
+                        <input type="range" min="0" max="5000" value="5000" class="slider" id="priceRange">
+                        <div class="slider-label" id="sliderValue">$5000</div>
+                    </div>
+                </div>
+                <button id="resetFilters">Reset Filters</button>
+            </div>
+        </aisde>
+        <div id="productList" class="product-list">
+            <div class="popup" id="popup">
+                Product added to Your List!
+            </div>
+        </div>
+    </div>
+    <script src="./product.js"></script>
+</body>
+</html>

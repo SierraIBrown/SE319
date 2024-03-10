@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cases</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="main-menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#" class="dropdown">PC Parts</a>
+                <ul class="dropdown-menu">
+                    <li><a href="./CPU.html">CPU</a></li>
+                    <li><a href="./RAM.html">RAM</a></li>
+                    <li><a href="./Motherboards.html">Motherboards</a></li>
+                    <li><a href="./CoolingFans.html">Cooling Fans</a></li>
+                    <li><a href="./GPU.html">GPU</a></li>
+                    <li><a href="./SSD&HardDrive.html">SSD/Hard Drives</a></li>
+                    <li><a href="./PowerSource.html">Power Sources</a></li>
+                    <li><a href="./Cases.html">Cases</a></li>
+                    <li><a href="./RecommendedPreBuilt.html">Recommended Prebuilt</a></li>
+                </ul>
+            </li>
+            <li><a href="./AboutUs.html">About Us</a></li>
+            <li><a href="./YourList.html">Your List</a></li>
+        </ul>
+    </nav>
+    <div class="title-container">
+        <h1 class="title">Cases</h1>
+        <div class="description">
+            <p>
+                Cases help provide space and safety for each of the various components a PC needs in order to be able to run.
+                It's chasses is the main frame of the PC case that houses all of those internal componenets.
+                The side panels allows the user quick and easy access to the interior of the case, allowing installation and maintenance of components.
+                The front panel of the case contains various ports, buttons, and indicators for connecting peripherals, accessing USB ports, audio jacks, conroller power and reset functions.
+                Expansion slows are openings on the rear panel that allow for expansion cards such as graphics card, sound cards, and network adapters can be installed.
+                Drive bays are areas indie the case where storage drives like the HDD and SSDs can be mounted.
+                Cases also come with cable management help, such as cable routing holes, tie-down points, and velcro straps.
+            </p>
+        </div>
+    </div>
+    <div class="sort-dropdown">
+        <label for="sort-options">Sort By:</label>
+        <select id="sort-options">
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="best-performace">Best Performace</option>
+        </select>
+    </div>
+    <div class="container">
+        <aisde class="filter-sidebar">
+            <div class="filter-container">
+                <h2>Filters</h2>
+                <section class="filter-section">
+                    <h3>Brand</h3>
+                    <section class="brand-section">
+                        <h4>NZXT:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="H510">NZXT H510<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="H210">NZXT H210<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="H710i">NZXT H710i
+                        </label>
+                    </section>
+                    <section class="brand-section">
+                        <h4>Fractal Design:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="Meshify C">Fractal Design Meshify C<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Define Nano S">Fractal Design Define Nano S<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Define 7">Fractal Design Define 7
+                        </label>
+                    </section>
+                    <section class="brand-section">
+                        <h4>Corsair:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="4000D Airflow">Corsair 4000D Airflow<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Crystal Series 280X RGB">Corsair Crystal Series 280X RGB<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Obsidian Series 1000D">Corsair Obsidian Series 1000D
+                        </label>
+                    </section>
+                </section>
+                <section class="filter-section">
+                    <h3>Form</h3>
+                    <label>
+                        <input type="checkbox" name="form" value="ATX Mid Tower">ATX Mid Tower<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="form" value="MicroATX Cube">MicroATX Cube<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="form" value="Mini-ITX">Mini-ITX<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="form" value="Super Tower">Super Tower
+                    </label>
+                </section>
+                <div class="filter-section">
+                    <h3>Price Range</h3>
+                    <div class="price-range-bar">
+                        <div class="markers">
+                            <div class="marker marker-min">$0</div>
+                            <div class="marker marker-max">$5000</div>
+                        </div>
+                        <input type="range" min="0" max="5000" value="5000" class="slider" id="priceRange">
+                        <div class="slider-label" id="sliderValue">$5000</div>
+                    </div>
+                </div>
+                <button id="resetFilters">Reset Filters</button>
+            </div>
+        </aisde>
+        <div id="productList" class="product-list">
+            <div class="popup" id="popup">
+                Product added to Your List!
+            </div>
+        </div>
+    </div>
+    <script src="./product.js"></script>
+</body>
+</html>

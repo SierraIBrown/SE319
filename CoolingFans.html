@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooling Fans</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="main-menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#" class="dropdown">PC Parts</a>
+                <ul class="dropdown-menu">
+                    <li><a href="./CPU.html">CPU</a></li>
+                    <li><a href="./RAM.html">RAM</a></li>
+                    <li><a href="./Motherboards.html">Motherboards</a></li>
+                    <li><a href="./CoolingFans.html">Cooling Fans</a></li>
+                    <li><a href="./GPU.html">GPU</a></li>
+                    <li><a href="./SSD&HardDrive.html">SSD/Hard Drives</a></li>
+                    <li><a href="./PowerSource.html">Power Sources</a></li>
+                    <li><a href="./Cases.html">Cases</a></li>
+                    <li><a href="./RecommendedPreBuilt.html">Recommended Prebuilt</a></li>
+                </ul>
+            </li>
+            <li><a href="./AboutUs.html">About Us</a></li>
+            <li><a href="./YourList.html">Your List</a></li>
+        </ul>
+    </nav>
+    <div class="title-container">
+        <h1 class="title">Cooling<br>Fans</h1>
+        <div class="description">
+            <p>
+                Cooling fans are necessary in prolonging compnent lifespan, and ensuring a comfortable and reliable computing environment.
+                The main parts that make up cooling fans are the blades, the motor, bearings, housing, and the connector.
+                All of the parts help in maintaining optimal operating temperatures and preventing overheating.
+            </p>
+            <p>
+                *Note, some of these come in either a one or three pack.
+            </p>
+        </div>
+    </div>
+    <div class="sort-dropdown">
+        <label for="sort-options">Sort By:</label>
+        <select id="sort-options">
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="best-performance">Best Performace</option>
+        </select>
+    </div>
+    <div class="container">
+        <aisde class="filter-sidebar">
+            <div class="filter-container">
+                <h2>Filters</h2>
+                <section class="filter-section">
+                    <h3>Brand</h3>
+                    <section class="brand-section">
+                        <h4>Noctua:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="NF-F12 PWM">Noctua NF-F12 PWM<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="NF-A14 PWM">Noctua NF-A14 PWM<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="NF-S12B redux-1200 PWM">Noctua NF-S12B redux-1200 PWM<br>
+                        </label>
+                    </section>
+                    <section class="brand-section">
+                        <h4>Corsair:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="LL120 RGB">Corsair LL120 RGB<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="ML120 Pro">Corsair ML120 Pro<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="AF120 LED">Corsair AF120 LED<br>
+                        </label>
+                    </section>
+                    <section class="brand-section">
+                        <h4>Cooler Master:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="MasterFan MF120 Halo">Cooler Master MasterFan MF120 Halo<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="SickleFlow 120 V2">Cooler Master SickleFlow 120 V2<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="MasterFan MF120R ARGB">Cooler Master MasterFan MF120R ARGB<br>
+                        </label>
+                    </section>
+                </section>
+                <section class="filter-section">
+                    <h3>Fan Size</h3>
+                    <label>
+                        <input type="checkbox" name="size" value="120mm">120mm<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="size" value="140mm">140mm<br>
+                    </label>
+                </section>
+                <section class="filter-section">
+                    <h3>Airflow</h3>
+                    <label>
+                        <input type="checkbox" name="airflow" value="High">High Airflow<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="airflow" value="Balanced">Balanced Airflow<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="airflow" value="Silent">Silent Airflow<br>
+                    </label>
+                </section>
+                <div class="filter-section">
+                    <h3>Price Range</h3>
+                    <div class="price-range-bar">
+                        <div class="markers">
+                            <div class="marker marker-min">$0</div>
+                            <div class="marker marker-max">$1000</div>
+                        </div>
+                        <input type="range" min="0" max="1000" value="1000" class="slider" id="priceRange">
+                        <div class="slider-label" id="sliderValue">$1000</div>
+                    </div>
+                </div>
+                <button id="resetFilters">Reset Filters</button>
+            </div>
+        </aisde>
+        <div id="productList" class="product-list">
+            <div class="popup" id="popup">
+                Product added to Your List!
+            </div>
+        </div>
+    </div>
+    <script src="./product.js"></script>
+</body>
+</html>

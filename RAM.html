@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAM</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="main-menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#" class="dropdown">PC Parts</a>
+                <ul class="dropdown-menu">
+                    <li><a href="./CPU.html">CPU</a></li>
+                    <li><a href="./RAM.html">RAM</a></li>
+                    <li><a href="./Motherboards.html">Motherboards</a></li>
+                    <li><a href="./CoolingFans.html">Cooling Fans</a></li>
+                    <li><a href="./GPU.html">GPU</a></li>
+                    <li><a href="./SSD&HardDrive.html">SSD/Hard Drives</a></li>
+                    <li><a href="./PowerSource.html">Power Sources</a></li>
+                    <li><a href="./Cases.html">Cases</a></li>
+                    <li><a href="./RecommendedPreBuilt.html">Recommended Prebuilt</a></li>
+                </ul>
+            </li>
+            <li><a href="./AboutUs.html">About Us</a></li>
+            <li><a href="./YourList.html">Your List</a></li>
+        </ul>
+    </nav>
+    <div class="title-container">
+        <h1 class="title">RAM</h1>
+        <div class="description">
+            <p>
+                The RAM (Random Access Memory) plays a critical role in ensuring performance, responsiveness, and multitasking capabilites of a computer system
+                It does this by providing fast and temporary storage for data and instructions.
+                There are four key components to RAM memory cells, address decoder, sense amplifier, and data I/O lines.
+                Memory cells are capable of storing a single binary digit of data, organized into grids of rows and columns.
+                The address decoder is responsible for interpretation of memory addresses provided by the CPU and selecting appropriate memory cells in RAM for reading from or writing to.
+                Sense Amplifiers are circuitry used to amplify and detect the small electrical signals stored in the memory cells, which helps to read the data stored accurately and reliably.
+                Data I/O lines are pathways which data is transferred between the CPU and RAM.
+            </p>
+        </div>
+    </div>
+    <div class="sort-dropdown">
+        <label for="sort-options">Sort By:</label>
+        <select id="sort-options">
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="best-performance">Best Performace</option>
+        </select>
+    </div>
+    <div class="container">
+        <aisde class="filter-sidebar">
+            <div class="filter-container">
+                <h2>Filters</h2>
+                <section class="filter-section">
+                    <h3>Brand</h3>
+                    <section class="brand-section">
+                        <h4>Corsair:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="Vengeance LPX RGB">Corsair Vengeance LPX RGB<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Vengeance RGB Pro">Corsair Vengeance RGB Pro<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Vengeance RGB">Corsair Vengeance RGB<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Dominator Platinum RGB">Corsair Dominator Platinum RGB<br>
+                        </label>
+                    </section>
+                    <section class="brand-section">
+                        <h4>G.Skill:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="Trident Z Neo">G.Skill Trident Z Neo<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Ripjaws V">G.Skill Ripjaws V<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Sniper X">G.Skill Sniper X<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Aegis">G.Skill Aegis
+                        </label>
+                    </section>
+                    <section class="brand-section">
+                        <h4>Crucial:</h4>
+                        <label>
+                            <input type="checkbox" name="model" value="Ballistix RGB">Crucial Ballistix RGB<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Ballistix Tactical Tracer">Crucial Ballistix Tactical Tracer<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Ballistix MAX">Crucial Ballistix MAX<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Ballistix Sport LT">Crucial Ballistix Sport LT<br>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="model" value="Ballistix Elite">Crucial Ballistix Elite
+                        </label>
+                    </section>
+                </section>
+                <section class="filter-section">
+                    <h3>Size</h3>
+                    <label>
+                        <input type="checkbox" name="size" value="1*8 GB">8 GB (1x8)<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="size" value="2*4 GB">8 GB (2x4)<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="size" value="2*8 GB">16 GB (2x8)<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="size" value="4*8 GB">32 GB (4x8)<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="size" value="2*16 GB">32 GB (2x16)
+                    </label>
+                </section>
+                <section class="filter-section">
+                    <h3>Speed</h3>
+                    <label>
+                        <input type="checkbox" name="speed" value="3200 MHz">3200 MHz<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="speed" value="3600 MHz">3600 MHz<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="speed" value="4000 MHz">4000 MHz<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="speed" value="4600 MHz">4600 MHz<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="speed" value="4800 MHz">4800 MHz<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="speed" value="5100 MHz">5100 MHz<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="speed" value="5600 MHz">5600 MHz
+                    </label>
+                </section>
+                <section class="filter-section">
+                    <h3>CAS Latency</h3>
+                    <label>
+                        <input type="checkbox" name="CL" value="CL9">CL9<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="CL" value="CL16">CL16<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="CL" value="CL18">CL18<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="CL" value="CL19">CL19<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="CL" value="CL30">CL30<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="CL" value="CL34">CL34<br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="CL" value="CL36">CL36
+                    </label>
+                </section>
+                <div class="filter-section">
+                    <h3>Price Range</h3>
+                    <div class="price-range-bar">
+                        <div class="markers">
+                            <div class="marker marker-min">$0</div>
+                            <div class="marker marker-max">$1000</div>
+                        </div>
+                        <input type="range" min="0" max="1000" value="1000" class="slider" id="priceRange">
+                        <div class="slider-label" id="sliderValue">$1000</div>
+                    </div>
+                </div>
+                <button id="resetFilters">Reset Filters</button>
+            </div>
+        </aisde>
+        <div id="productList" class="product-list">
+            <div class="popup" id="popup">
+                Product added to Your List!
+            </div>
+        </div>
+    </div>
+    <script src="./product.js"></script>
+</body>
+</html>
